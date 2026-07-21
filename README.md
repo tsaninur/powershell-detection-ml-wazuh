@@ -3,7 +3,7 @@ Sistem deteksi fileless malware PowerShell berbasis Machine Learning (Random For
 
 # Deteksi Fileless Malware PowerShell berbasis ML pada SIEM Wazuh
 
-Repositori ini berisi keseluruhan *pipeline* kode untuk penelitian skripsi mengenai "Deteksi Fileless Malware PowerShell berbasis ML pada SIEM Wazuh"[cite: 2]. Sistem ini dirancang untuk mendeteksi eksekusi skrip berbahaya dari log PowerShell (Event ID 4104) dengan mengekstrak fitur statistik, leksikal, dan *Abstract Syntax Tree* (AST)[cite: 9]. Model Machine Learning dievaluasi kinerjanya dalam menghadapi berbagai teknik obfuskasi dibandingkan dengan metode deteksi *Rule-Based* bawaan Wazuh[cite: 3, 6].
+Repositori ini berisi keseluruhan *pipeline* kode untuk "Deteksi PowerShell berbasis ML pada SIEM Wazuh"[cite: 2]. Sistem ini dirancang untuk mendeteksi eksekusi skrip berbahaya dari log PowerShell (Event ID 4104) dengan mengekstrak fitur statistik, leksikal, dan *Abstract Syntax Tree* (AST)[cite: 9]. Model Machine Learning dievaluasi kinerjanya dalam menghadapi berbagai teknik obfuskasi dibandingkan dengan metode deteksi *Rule-Based* bawaan Wazuh[cite: 3, 6].
 
 ## Struktur Direktori
 
