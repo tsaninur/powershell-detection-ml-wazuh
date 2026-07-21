@@ -48,16 +48,24 @@ Mengekstrak tiga jenis fitur dari skrip PowerShell untuk dijadikan input Machine
 * **Statistik & Leksikal**: Menghitung panjang skrip, jumlah baris, karakter khusus (seperti `$`, `^`, `%`), dan kemunculan *keyword* spesifik PowerShell (seperti `Invoke-Expression`, `Net.WebClient`)[cite: 4, 9].
 * **AST (Abstract Syntax Tree)**: Menggunakan `pwsh` untuk melakukan *parsing* skrip dan mengekstrak 11 node AST target (seperti `CommandAst`, `PipelineAst`) secara dinamis[cite: 4, 9].
 
+<img width="783" height="499" alt="fitur1" src="https://github.com/user-attachments/assets/ae64b39e-a837-429b-bee1-3ba69452db42" />
+<img width="759" height="496" alt="fitur2" src="https://github.com/user-attachments/assets/700daa3f-824a-4b86-b2d1-e35f54de2f9a" />
+
 ### 5. Pemodelan Machine Learning (`modeling.ipynb`)
 Melatih algoritma Machine Learning menggunakan data dasar (murni) dan data augmentasi (obfuskasi).
 * Menggunakan tiga arsitektur model: **Random Forest**, **XGBoost**, dan **LightGBM**[cite: 7].
 * Menerapkan pengujian *5-Fold Cross Validation* untuk memastikan tidak terjadi *overfitting*[cite: 7].
 * Mengekspor model terbaik dalam format `.joblib`[cite: 7].
 
+<img width="512" height="505" alt="model1" src="https://github.com/user-attachments/assets/46d20425-413d-4f04-a60e-ecbfcf30d339" />
+<img width="935" height="339" alt="model2" src="https://github.com/user-attachments/assets/7f61cef2-1c42-4233-bae1-2f10ad958384" />
+
 ### 6. Evaluasi Model (`evaluate.ipynb`)
 Menguji kinerja deteksi model terhadap set pengujian murni dan yang terobfuskasi.
 * Menghitung metrik performa komprehensif: *Accuracy, Precision, Recall, F1-Score, False Positive Rate (FPR), False Negative Rate (FNR), ROC AUC*, dan *PR AUC*[cite: 3].
 * Mengekspor matriks hasil evaluasi ke dalam format CSV dan menghasilkan visualisasi grafik lanskap[cite: 3].
+  
+<img width="1125" height="524" alt="eval1" src="https://github.com/user-attachments/assets/331b5b39-188a-495d-9f9d-aa1fe073627b" />
 
 ### 7. Integrasi Wazuh (`custom-ps-ml.py`)
 Skrip integrasi kustom yang dijalankan oleh Wazuh saat Rule 100010 (Event ID 4104) terpicu[cite: 9].
@@ -70,3 +78,8 @@ Skrip integrasi kustom yang dijalankan oleh Wazuh saat Rule 100010 (Event ID 410
 ### 8. Laporan Evaluasi Terpadu (`generate_ml_report.py` & `generate_report_rule.py`)
 * Membaca log *alerts* JSON dari Wazuh untuk membandingkan kinerja deteksi Machine Learning dengan deteksi heuristik (*Rule-Based* level 6 ke atas)[cite: 5, 6].
 * Menghitung status deteksi (TP, TN, FP, FN) dan latensi klasifikasi[cite: 5].
+
+<img width="1154" height="154" alt="image" src="https://github.com/user-attachments/assets/3bca6da4-b543-4fff-bbe7-9d49505cbf48" />
+<img width="444" height="139" alt="image" src="https://github.com/user-attachments/assets/b1dddefa-b726-4615-9051-f7c075107e85" />
+
+
