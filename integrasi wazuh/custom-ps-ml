@@ -1,0 +1,346 @@
+#!/usr/bin/python3
+"""
+custom-ps-ml.py — Wazuh Custom Integration (Unified & Optimized Version)
+Lokasi : /var/ossec/integrations/custom-ps-ml.py
+
+Alur kerja (Opsi A - Realtime Gatekeeper):
+    1. Wazuh memanggil skrip saat Rule 100010 terpicu (Event ID 4104)
+    2. Gatekeeper: Menolak fragmentasi (>1) dan log sampah (<50 chars)
+    3. Fileless Support: Menangani log tanpa path (In-Memory Execution)
+    4. Ekstraksi Hybrid: Statistik, Leksikal, dan AST via pwsh
+    5. Prediksi ML: Menggunakan model Machine Learning
+    6. Output: Log bersih ke file & JSON ke stdout untuk memicu Rule 100020
+"""
+
+import sys
+import json
+import datetime
+import time
+import os
+import tempfile
+import glob
+import logging
+import subprocess
+import re
+import warnings
+
+# [CRITICAL HACK] Mengizinkan pwsh berjalan di Linux tanpa telemetri
+os.environ['DOTNET_SYSTEM_GLOBALIZATION_INVARIANT'] = '1'
+os.environ['POWERSHELL_TELEMETRY_OPTOUT'] = '1'
+os.environ['POWERSHELL_UPDATECHECK'] = 'Off'
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
+import pandas as pd
+import joblib
+
+# ===========================================================================
+# 1. SETUP LOGGER & DIREKTORI
+# ===========================================================================
+T_start = time.perf_counter()
+
+DEBUG_LOG_PATH = "/var/ossec/logs/custom-ps-ml.log"
+LOG_OUTPUT     = "/var/ossec/logs/custom_ml_alerts.json"
+MODEL_DIR      = "/opt/wazuh_ml_models/"
+MALICIOUS_THRESHOLD = 0.5
+
+logging.basicConfig(
+    filename=DEBUG_LOG_PATH,
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+
+# ===========================================================================
+# 2. KAMUS FITUR EKSTRAKSI (HYBRID)
+# ===========================================================================
+_CHAR_COL = {
+    "$": "char_dollar",    "(": "char_lparen",    ")": "char_rparen",
+    "[": "char_lbracket",  "]": "char_rbracket",  "{": "char_lbrace",
+    "}": "char_rbrace",    ".": "char_dot",       ",": "char_comma",
+    "+": "char_plus",      "-": "char_minus",     "*": "char_star",
+    "/": "char_slash",     "=": "char_equal",     "!": "char_exclaim",
+    "%": "char_percent",   "^": "char_caret",     "&": "char_ampersand",
+    "`": "char_backtick",
+}
+
+TARGET_KEYWORDS = [
+    "Get-Command", "Get-Help", "Get-Process", "Get-Service", "Get-ChildItem",
+    "Get-WmiObject", "Get-Alias", "Get-Member", "Set-Location", "Get-Location",
+    "Get-Content", "Set-Content", "Add-Content", "Write-Host", "Write-Output",
+    "Write-Verbose", "Write-Error", "Start-Transcript", "Stop-Transcript",
+    "Set-StrictMode", "Protect-CmsMessage", "Unprotect-CmsMessage",
+    "Test-NetConnection", "Test-Path", "Import-Module", "Select-Object",
+    "Where-Object", "ForEach-Object", "Get-Acl", "Set-Acl", "Get-FileHash",
+    "pwd", "gl", "Invoke-Obfuscation", "Invoke-Mimikatz", "PowerSploit",
+    "PowerShell Empire", "Nishang", "PowerUp", "p0wnedShell", "PowerOPS",
+    "Poweliks", "Kovter", "Shellcode", "Start-Process", "Invoke-WebRequest",
+    "Invoke-RestMethod", "-f", "[Convert]::FromBase64String",
+    "[System.Convert]::FromBase64String", "[Convert]::ToBase64String",
+    "[System.Convert]::ToBase64String", "System.IO.Compression.DeflateStream",
+    "IO.MemoryStream", "[Runtime.InteropServices.Marshal]::PtrToStringAnsi",
+    "[Runtime.InteropServices.Marshal]::SecureStringToGlobalAllocAnsi",
+    "$True", "$False", "ConvertFrom-SecureString", "ConvertTo-SecureString",
+    "Invoke-Expression", "IEX", "-EncodedCommand", "-exec bypass",
+    "-ExecutionPolicy Bypass", "System.Net.WebClient", "Net.WebClient",
+    "DownloadString", "DownloadFile", "New-Object"
+]
+
+AST_TARGET_NODES = [
+    "AssignmentStatementAst", "BinaryExpressionAst", "CommandAst",
+    "InvokeMemberExpressionAst", "PipelineAst", "StringConstantExpressionAst",
+    "TypeExpressionAst", "VariableExpressionAst",
+    "ConvertExpressionAst", "ArrayLiteralAst", "ParenExpressionAst"
+]
+
+# ===========================================================================
+# 3. FUNGSI EKSTRAKSI FITUR (HYBRID AST)
+# ===========================================================================
+def extract_features(script: str) -> dict:
+    feats = {}
+    lines = script.splitlines() or [""]
+    lengths = [len(ln) for ln in lines]
+    has_url_ip = int(bool(re.search(r"https?://", script, re.I) or re.search(r"\b(?:\d{1,3}\.){3}\d{1,3}\b", script)))
+
+    feats.update({
+        "script_length"  : len(script),
+        "line_count"     : len(lines),
+        "avg_line_length": round(sum(lengths) / len(lengths), 4) if lengths else 0,
+        "max_line_length": max(lengths) if lengths else 0,
+        "has_url_or_ip"  : has_url_ip,
+    })
+
+    for char, col in _CHAR_COL.items():
+        feats[col] = script.count(char)
+
+    feats["var_count"] = len(re.findall(r"\$[a-zA-Z_]\w*", script))
+    feats["string_literal_count"] = len(re.findall(r"'[^']*'", script)) + len(re.findall(r'"[^"]*"', script))
+
+    sl = script.lower()
+    for kw in TARGET_KEYWORDS:
+        col = "kw_" + re.sub(r"[^a-z0-9]", "_", kw.lower())
+        feats[col] = len(re.findall(re.escape(kw.lower()), sl))
+
+    ps_ast_array = ", ".join(f"'{node}'" for node in AST_TARGET_NODES)
+    tmp_path = None
+
+    try:
+        fd, tmp_path = tempfile.mkstemp(suffix=".ps1")
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(script)
+
+        ps_script = f"""
+        $targets = @({ps_ast_array})
+        $path = '{tmp_path}'
+        try {{
+            $tok = $null; $err = $null
+            $ast = [System.Management.Automation.Language.Parser]::ParseFile($path, [ref]$tok, [ref]$err)
+            $counts = @{{}}
+            foreach ($t in $targets) {{ $counts[$t] = 0 }}
+            $allNodes = $ast.FindAll({{$true}}, $true)
+            foreach ($node in $allNodes) {{
+                $name = $node.GetType().Name
+                if ($counts.ContainsKey($name)) {{
+                    $counts[$name]++
+                }}
+            }}
+            $counts | ConvertTo-Json -Compress
+        }} catch {{
+            $fb = @{{}}
+            foreach ($t in $targets) {{ $fb[$t] = 0 }}
+            $fb | ConvertTo-Json -Compress
+        }}
+        """
+        my_env = os.environ.copy()
+        res = subprocess.run(
+            ["/opt/microsoft/powershell/7/pwsh", "-NoProfile", "-NonInteractive", "-Command", "-"],
+            input=ps_script, capture_output=True, text=True, timeout=25, env=my_env
+        )
+
+        if res.returncode == 0 and res.stdout.strip():
+            output = res.stdout.strip()
+            json_match = re.search(r'\{.*\}', output, re.DOTALL)
+
+            if json_match:
+                clean_json_str = json_match.group(0)
+                try:
+                    raw = json.loads(clean_json_str)
+                    feats.update({n: int(raw.get(n, 0)) for n in AST_TARGET_NODES})
+                except json.JSONDecodeError:
+                    logger.error(f"Gagal parse JSON yang diekstrak: {clean_json_str}")
+                    feats.update({n: 0 for n in AST_TARGET_NODES})
+            else:
+                logger.error(f"Tidak ditemukan format JSON pada output: {output}")
+                feats.update({n: 0 for n in AST_TARGET_NODES})
+        else:
+            if res.stderr:
+                logger.error(f"Error pwsh: {res.stderr}")
+            feats.update({n: 0 for n in AST_TARGET_NODES})
+
+    except Exception as e:
+        logger.error(f"Gagal memanggil pwsh AST: {str(e)}")
+        feats.update({n: 0 for n in AST_TARGET_NODES})
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            os.remove(tmp_path)
+
+    return feats
+
+# ===========================================================================
+# 4. FUNGSI ML (LOAD & PREDICT)
+# ===========================================================================
+_loaded_model = None
+
+def load_model():
+    global _loaded_model
+    if _loaded_model is not None:
+        return _loaded_model
+
+    files = glob.glob(os.path.join(MODEL_DIR, "model_RandomForest_Augmentasi_*.joblib"))
+    if not files:
+        raise FileNotFoundError(f"File model tidak ditemukan di direktori: {MODEL_DIR}")
+
+    latest_file = max(files, key=os.path.getmtime)
+    logger.info(f"Memuat model dari disk: {latest_file}")
+    _loaded_model = joblib.load(latest_file)
+    return _loaded_model
+
+def predict(features: dict) -> tuple:
+    payload = load_model()
+    model = payload["model"]
+    feature_cols = payload["feature_cols"]
+
+    df = pd.DataFrame([features])
+    for col in feature_cols:
+        if col not in df.columns:
+            df[col] = 0
+    df = df[feature_cols]
+
+    proba = float(model.predict_proba(df)[0][1])
+    label = "malicious" if proba >= MALICIOUS_THRESHOLD else "benign"
+    return label, proba
+
+def dump_script(script_block_id: str, script_content: str):
+    """Mencatat isi skrip ke file untuk dianalisis/debugging"""
+    # Pastikan folder dump tersedia
+    os.makedirs("/var/ossec/logs/script_dump", exist_ok=True)
+    dump_path = f"/var/ossec/logs/script_dump/{script_block_id}.txt"
+    try:
+        with open(dump_path, "w", encoding="utf-8") as f:
+            f.write(script_content)
+        logger.info(f"DUMP: Skrip {script_block_id} disimpan ke {dump_path}")
+    except Exception as e:
+        logger.error(f"Gagal melakukan dump skrip: {e}")
+
+# ===========================================================================
+# 5. MAIN PIPELINE
+# ===========================================================================
+def main() -> None:
+    if len(sys.argv) < 2:
+        logger.error("argv[1] tidak ada. Skrip dipanggil tanpa path file alert.")
+        sys.exit(1)
+
+    try:
+        with open(sys.argv[1], "r", encoding="utf-8") as f:
+            alert = json.load(f)
+    except Exception as exc:
+        logger.error(f"Gagal membaca file alert '{sys.argv[1]}': {exc}")
+        sys.exit(1)
+
+    try:
+        ev = alert.get("data", {}).get("win", {}).get("eventdata", {})
+        script_block_id = ev.get("ScriptBlockId", ev.get("scriptBlockId"))
+        fragment_text   = ev.get("ScriptBlockText", ev.get("scriptBlockText", ""))
+        message_number  = int(ev.get("MessageNumber", ev.get("messageNumber", 1)))
+        message_total   = int(ev.get("MessageTotal", ev.get("messageTotal", 1)))
+        agent_name      = alert.get("agent", {}).get("name", "unknown")
+        script_path     = ev.get("Path", ev.get("path", ""))
+    except Exception as exc:
+        logger.error(f"Field JSON tidak ditemukan: {exc}")
+        sys.exit(1)
+
+    if not script_block_id:
+        sys.exit(0)
+
+    # =====================================================================
+    # GATEKEEPER 1: FRAGMENTASI (Tolak skrip pecah agar AST tidak error)
+    # =====================================================================
+    if message_total > 1:
+        logger.info(f"Abaikan {script_block_id} - Skrip terfragmentasi [{message_number}/{message_total}]. (Gatekeeper Opsi A)")
+        sys.exit(0)
+
+    # Karena fragmentasi ditolak, kita asumsikan teks ini adalah skrip utuh
+    full_script = fragment_text
+
+    # =====================================================================
+    # GATEKEEPER 2: UKURAN (Tolak log sampah/noise)
+    # =====================================================================
+    if len(full_script) < 50:
+        logger.info(f"Abaikan {script_block_id} - Skrip terlalu pendek ({len(full_script)} chars). (Gatekeeper Opsi A)")
+        sys.exit(0)
+
+    # =====================================================================
+    # GATEKEEPER 3: PENANGANAN PATH KOSONG (Fileless Execution)
+    # =====================================================================
+    if not script_path or script_path.strip() == "":
+        script_path = "In-Memory / Dynamic Execution"
+        logger.info(f"Menerima {script_block_id} - Tanpa Path (Dialihkan ke In-Memory).")
+    else:
+        logger.info(f"Menerima {script_block_id} - Skrip utuh dari agent={agent_name}")
+
+    # Mencatat skrip mentah untuk keperluan analisis
+    dump_script(script_block_id, full_script)
+    logger.info(f"Skrip {script_block_id} siap. Memulai pipeline ekstraksi fitur.")
+
+    # --- EKSTRAKSI SAMPLE ID ---
+    sample_id = "UNKNOWN"
+    for line in full_script.splitlines():
+        if "# SAMPLE_ID:" in line:
+            sample_id = line.split("SAMPLE_ID:")[1].strip()
+            break
+    # -------------------------------------
+
+    try:
+        features = extract_features(full_script)
+        pretty_features = json.dumps(features, indent=2)
+        logger.info(f"HASIL EKSTRAKSI FITUR LENGKAP:\n{pretty_features}")
+        label, proba = predict(features)
+    except Exception as exc:
+        logger.error(f"Error pipeline ML: {exc}", exc_info=True)
+        sys.exit(1)
+
+    t_elapsed_ms = (time.perf_counter() - T_start) * 1000
+    logger.info(f"Prediksi: {label} | prob={proba:.4f} | latensi={t_elapsed_ms:.1f}ms")
+
+    # MENYUSUN OUTPUT JSON
+    output = {
+        "ml_scan_time"    : datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "script_path"     : script_path,
+        "integration"     : "custom-ps-ml",
+        "unique_id"       : sample_id,
+        "script_block_id" : script_block_id,
+        "agent_name"      : agent_name,
+        "ml_verdict"      : label,
+        "ml_probability"  : round(proba, 4),
+        "ml_algorithm"    : "RandomForest",
+        "script_length"   : len(full_script),
+        "latency_ms"      : round(t_elapsed_ms, 2),
+        "script_content"  : full_script
+    }
+
+    # 1. SELALU CATAT KE FILE LOG JSON
+    try:
+        with open(LOG_OUTPUT, "a") as f:
+            f.write(json.dumps(output) + "\n")
+        logger.info(f"Evaluasi skrip {sample_id} ({label}) dicatat ke {LOG_OUTPUT}")
+    except Exception as e:
+        logger.error(f"Gagal menulis ke JSON log: {e}")
+
+    # 2. CETAK KE STDOUT HANYA JIKA MALICIOUS
+    if label == "malicious":
+        print(json.dumps(output))
+    else:
+        logger.info(f"Skrip {script_block_id} = benign. Alert Dashboard diabaikan.")
+
+if __name__ == "__main__":
+    main()

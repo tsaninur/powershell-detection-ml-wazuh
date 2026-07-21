@@ -1,0 +1,1 @@
+﻿ (('beCtext = FD'+'uHello'+' W'+'o'+'r'+'ld '+'bbbFDu; beCt'+'ext Ln'+'y Out-'+'File RKE'+'b'+'eCe'+'nv:user'+'pro'+'fileDzF'+'Deskt'+'opDzFbbb.t'+'xtRKE') -rEplacE  'RKE',[chAr]34-CRePLAcE([chAr]68+[chAr]122+[chAr]70),[chAr]92  -rEplacE'FDu',[chAr]39-rEplacE  'Lny',[chAr]124-rEplacE  'beC',[chAr]36)|. ( $pSHome[21]+$pShOme[34]+'X')

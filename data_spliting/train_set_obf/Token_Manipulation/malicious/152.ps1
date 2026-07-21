@@ -1,0 +1,1 @@
+﻿$text = 'Hello World bbb'; $text | O`UT`-fILE "$env:userprofile\Desktop\bbb.txt"

