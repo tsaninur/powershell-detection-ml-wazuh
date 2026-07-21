@@ -29,13 +29,19 @@ Skrip ini memindai folder dataset mentah dan melakukan pembersihan otomatis[cite
 * Membersihkan komentar teks murni (`#` atau `<# #>`)[cite: 1].
 * Mengeliminasi file kosong, file yang terlalu pendek (*noise*), dan melakukan pengecekan duplikasi silang menggunakan *Hash* MD5[cite: 1].
 
+<img width="970" height="230" alt="cleaning2" src="https://github.com/user-attachments/assets/65c5f8b3-0bcd-482f-aac8-1924fc4f2336" />
+
 ### 2. Pembagian Dataset (`data spliting.py`)
 Membagi dataset yang telah bersih (`mpsd_clean`) menjadi data pelatihan (80%) dan data pengujian (20%)[cite: 2].
 * Menggunakan metode *Stratified Split* untuk memastikan proporsi label *benign* dan *malicious* tetap seimbang di kedua set[cite: 2].
 
+<img width="1005" height="313" alt="splitting" src="https://github.com/user-attachments/assets/92d96b25-efc5-4ba2-ac59-75cb41b5f83d" />
+
 ### 3. Augmentasi Obfuskasi (`obfuscation.ps1`)
 Melakukan augmentasi pada dataset menggunakan modul `Invoke-Obfuscation` untuk menguji ketahanan model[cite: 8].
 * Menerapkan 4 teknik obfuskasi: *Token Manipulation*, *ASCII Encoding*, *String Concatenation*, dan *String Reordering*[cite: 8].
+
+<img width="664" height="268" alt="obf3" src="https://github.com/user-attachments/assets/27af7a20-d62a-4129-9b6b-f21dd429d9fc" />
 
 ### 4. Ekstraksi Fitur (`feature extraction.ipynb`)
 Mengekstrak tiga jenis fitur dari skrip PowerShell untuk dijadikan input Machine Learning:
@@ -58,6 +64,8 @@ Skrip integrasi kustom yang dijalankan oleh Wazuh saat Rule 100010 (Event ID 410
 * Bertindak sebagai *Gatekeeper* dengan menolak log yang terfragmentasi atau terlalu pendek (< 50 karakter)[cite: 9].
 * Menangani eksekusi *Fileless* (skrip yang berjalan di memori tanpa path file)[cite: 9].
 * Melakukan ekstraksi fitur secara hibrida, memuat model `.joblib` terbaru, dan memberikan prediksi akhir (*malicious* atau *benign*) beserta nilai probabilitasnya[cite: 9].
+
+<img width="952" height="640" alt="alerts2" src="https://github.com/user-attachments/assets/ee97f2f2-0596-422f-98fe-592a810a0d00" />
 
 ### 8. Laporan Evaluasi Terpadu (`generate_ml_report.py` & `generate_report_rule.py`)
 * Membaca log *alerts* JSON dari Wazuh untuk membandingkan kinerja deteksi Machine Learning dengan deteksi heuristik (*Rule-Based* level 6 ke atas)[cite: 5, 6].
