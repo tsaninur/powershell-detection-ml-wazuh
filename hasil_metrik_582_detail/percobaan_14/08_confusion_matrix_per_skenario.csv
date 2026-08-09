@@ -1,0 +1,11 @@
+﻿scenario,confusion_result,jumlah
+ASCII Encoding,FN,1
+ASCII Encoding,TP,96
+Benign,FP,7
+Benign,TN,90
+Original Malicious,FN,2
+Original Malicious,TP,95
+String Concatenation,TP,97
+String Reordering,FN,1
+String Reordering,TP,96
+Token Manipulation,TP,97

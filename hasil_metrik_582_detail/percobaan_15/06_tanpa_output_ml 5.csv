@@ -1,0 +1,12 @@
+﻿Percobaan,script_path,scenario,actual_class,predicted_class,confusion_result,correct,has_ml_output,score_for_eval,max_probability,mean_probability,min_probability,alert_count,verdicts,observed_path
+15,C:\TA\project-ta\data_spliting\test_set\benign\1032.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\1799.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\1816.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\2044.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\2048.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\2729.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\2747.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\4087.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\4162.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\4164.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,
+15,C:\TA\project-ta\data_spliting\test_set\benign\4200.ps1,Benign,benign,benign,TN,True,False,0.0,,,,,,

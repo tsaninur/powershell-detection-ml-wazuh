@@ -1,0 +1,7 @@
+﻿scenario,actual_class,jumlah
+ASCII Encoding,malicious,97
+Benign,benign,97
+Original Malicious,malicious,97
+String Concatenation,malicious,97
+String Reordering,malicious,97
+Token Manipulation,malicious,97

@@ -1,0 +1,22 @@
+RINGKASAN EVALUASI FIXED 582 - 5 PERCOBAAN
+
+Setiap percobaan dievaluasi pada 582 path yang sama.
+Threshold malicious: 0.5
+
+File input:
+- Trial 11: 04_ml_alert_berhasil_dicocokkan 1.jsonl
+- Trial 12: 04_ml_alert_berhasil_dicocokkan 2.jsonl
+- Trial 13: 04_ml_alert_berhasil_dicocokkan 3.jsonl
+- Trial 14: 04_ml_alert_berhasil_dicocokkan 4.jsonl
+- Trial 15: 04_ml_alert_berhasil_dicocokkan 5.jsonl
+
+Metrik:
+- Trial 11: TP=483, TN=90, FP=7, FN=2, Accuracy=0.984536, Precision=0.985714, Recall=0.995876, F1=0.990769
+- Trial 12: TP=483, TN=90, FP=7, FN=2, Accuracy=0.984536, Precision=0.985714, Recall=0.995876, F1=0.990769
+- Trial 13: TP=483, TN=90, FP=7, FN=2, Accuracy=0.984536, Precision=0.985714, Recall=0.995876, F1=0.990769
+- Trial 14: TP=481, TN=90, FP=7, FN=4, Accuracy=0.981100, Precision=0.985656, Recall=0.991753, F1=0.988695
+- Trial 15: TP=483, TN=90, FP=7, FN=2, Accuracy=0.984536, Precision=0.985714, Recall=0.995876, F1=0.990769
+
+Skrip dengan prediksi tidak konsisten: 2
+Skrip dengan ketersediaan output ML tidak konsisten: 3
+Skrip dengan kategori confusion matrix berubah: 2

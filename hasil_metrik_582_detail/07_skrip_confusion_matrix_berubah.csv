@@ -1,0 +1,3 @@
+﻿script_path,scenario,actual_class,Urutan_CM,Berubah_CM,Jumlah_Perubahan
+C:\TA\project-ta\data_spliting\test_set_obf\ASCII_Encoding\malicious\1348.ps1,ASCII Encoding,malicious,TP -> TP -> TP -> FN -> TP,True,2
+C:\TA\project-ta\data_spliting\test_set_obf\String_Reordering\malicious\1208.ps1,String Reordering,malicious,TP -> TP -> TP -> FN -> TP,True,2
