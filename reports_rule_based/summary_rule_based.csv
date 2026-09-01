@@ -1,7 +1,0 @@
-Skenario,Total_Data,TP,TN,FP,FN,Accuracy_Percent
-Benign,26,0,24,2,0,92.31
-Malicious_Standard,296,249,0,0,47,84.12
-ASCII_Encoding,26,0,0,0,26,0.0
-String_Concatenation,184,168,0,0,16,91.3
-String_Reordering,246,220,0,0,26,89.43
-Token_Manipulation,240,228,0,0,12,95.0
