@@ -16,7 +16,7 @@ Berdasarkan referensi file image_e16207.png, berikut adalah struktur utama dari 
 * **`mpsd/`**: Folder dataset mentah yang berisi kategori *malicious* dan *benign*.
 * **`mpsd_clean/`**: Folder output untuk dataset yang telah dibersihkan dari *noise* dan duplikat.
 * **`output/`**: Menyimpan model terlatih (`.joblib`), grafik evaluasi, dan metrik.
-* **`reports_ml/`** & **`reports_rule_based/`**: Folder untuk menyimpan laporan perbandingan hasil evaluasi sistem ML dan *Rule-Based*.
+* **`generate_ml_report.py/`**: Folder untuk menyimpan laporan perbandingan hasil evaluasi sistem ML dan *Rule-Based*.
 * **`venv/`**: *Virtual environment* Python.
 
 ## Pipeline Repositori
@@ -55,7 +55,7 @@ Mengekstrak tiga jenis fitur dari skrip PowerShell untuk dijadikan input Machine
 Melatih algoritma Machine Learning menggunakan data dasar (murni) dan data augmentasi (obfuskasi).
 * Menggunakan tiga arsitektur model: **Random Forest**, **XGBoost**, dan **LightGBM**[cite: 7].
 * Menerapkan pengujian *5-Fold Cross Validation* untuk memastikan tidak terjadi *overfitting*[cite: 7].
-* Mengekspor model terbaik dalam format `.joblib`[cite: 7].
+* Mengekspor model terpilih dalam format `.joblib`[cite: 7].
 
 <img width="512" height="505" alt="model1" src="https://github.com/user-attachments/assets/46d20425-413d-4f04-a60e-ecbfcf30d339" />
 <img width="935" height="339" alt="model2" src="https://github.com/user-attachments/assets/7f61cef2-1c42-4233-bae1-2f10ad958384" />
@@ -70,13 +70,13 @@ Menguji kinerja deteksi model terhadap set pengujian murni dan yang terobfuskasi
 ### 7. Integrasi Wazuh (`custom-ps-ml.py`)
 Skrip integrasi kustom yang dijalankan oleh Wazuh saat Rule 100010 (Event ID 4104) terpicu[cite: 9].
 * Bertindak sebagai *Gatekeeper* dengan menolak log yang terfragmentasi atau terlalu pendek (< 50 karakter)[cite: 9].
-* Menangani eksekusi *Fileless* (skrip yang berjalan di memori tanpa path file)[cite: 9].
+* Menangani eksekusi *Fileless* (skrip yang berjalan di memori)[cite: 9].
 * Melakukan ekstraksi fitur secara hibrida, memuat model `.joblib` terbaru, dan memberikan prediksi akhir (*malicious* atau *benign*) beserta nilai probabilitasnya[cite: 9].
 
 <img width="952" height="640" alt="alerts2" src="https://github.com/user-attachments/assets/ee97f2f2-0596-422f-98fe-592a810a0d00" />
 
-### 8. Laporan Evaluasi Terpadu (`generate_ml_report.py` & `generate_report_rule.py`)
-* Membaca log *alerts* JSON dari Wazuh untuk membandingkan kinerja deteksi Machine Learning dengan deteksi heuristik (*Rule-Based* level 6 ke atas)[cite: 5, 6].
+### 8. Laporan Evaluasi Terpadu (`generate_ml_report.py`)
+* Membaca log *alerts* JSON dari Wazuh untuk membandingkan kinerja deteksi Machine Learning. [cite: 5, 6].
 * Menghitung status deteksi (TP, TN, FP, FN) dan latensi klasifikasi[cite: 5].
 
 <img width="1154" height="154" alt="image" src="https://github.com/user-attachments/assets/3bca6da4-b543-4fff-bbe7-9d49505cbf48" />
